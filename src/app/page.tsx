@@ -139,7 +139,7 @@ export default function Home() {
       <AdBanner
         dataAdSlot="5367057535"
         dataAdFormat="auto"
-        dataFullWidthResponsive={true}
+        dataFullWidthResponsive="true"
       />
 
       {isModalOpen && (
