@@ -37,12 +37,10 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <head>
-        {/* Meta Tags for SEO */}
         <meta name="description" content={metadata.description!} />
         <meta name="keywords" content={metadata.keywords! as string} />
         <meta name="robots" content={metadata.robots! as string} />
 
-        {/* Open Graph Tags for Social Media */}
         <meta
           property="og:title"
           content={metadata.openGraph!.title as string}
@@ -58,7 +56,24 @@ export default function RootLayout({
         <meta property="og:url" content={metadata.openGraph!.url as string} />
         <meta property="og:type" content={"website"} />
 
-        {/* Schema Markup */}
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
