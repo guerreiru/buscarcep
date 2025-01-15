@@ -17,6 +17,11 @@ export function CEPCard({ data }: CepCardProps) {
           <strong>Logradouro:</strong> {data.logradouro}
         </p>
       )}
+      {data.complemento && (
+        <p>
+          <strong>Complemento:</strong> {data.complemento}
+        </p>
+      )}
       {data.bairro && (
         <p>
           <strong>Bairro:</strong> {data.bairro}

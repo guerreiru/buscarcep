@@ -4,4 +4,5 @@ export interface Cep {
   bairro?: string;
   localidade?: string;
   uf?: string;
+  complemento?: string;
 }

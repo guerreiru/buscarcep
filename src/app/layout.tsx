@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     title: "Buscar CEP | Consultar CEP Online",
     description:
       "Encontre o CEP de qualquer rua facilidade. Saiba o CEP de cada rua!",
-    images: "antevisao.png",
+    images: "/antevisao.png",
     url: "https://buscarcep.app.br",
     type: "website",
   },

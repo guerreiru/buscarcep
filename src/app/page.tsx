@@ -16,6 +16,7 @@ export default function Home() {
   const [selectedCity, setSelectedCity] = useState("Limoeiro do Norte");
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isFirstVisit, setIsFirstVisit] = useState(true);
+  const [isSearching, setIsSearching] = useState(false);
 
   const modalEndDate = new Date("2025-06-30T23:59:59");
 
@@ -46,9 +47,18 @@ export default function Home() {
       states.filter((state) => state.id === selectedState)[0].acronym || "CE";
     const city = selectedCity || "Limoeiro do Norte";
 
+    const cacheKey = `${state}-${city}-${address.trim()}`;
+    const cachedResults = localStorage.getItem(cacheKey);
+
+    if (cachedResults) {
+      setResults(JSON.parse(cachedResults));
+      return;
+    }
+
     setResults([]);
 
     try {
+      setIsSearching(true);
       const response = await fetch(
         `https://viacep.com.br/ws/${state}/${city}/${address}/json/`
       );
@@ -59,9 +69,13 @@ export default function Home() {
         return;
       }
 
+      // Salva os resultados no cache local
+      localStorage.setItem(cacheKey, JSON.stringify(data));
       setResults(data);
     } catch (error) {
       setModalMessage("Erro ao buscar o CEP.");
+    } finally {
+      setIsSearching(false);
     }
   };
 
@@ -104,7 +118,8 @@ export default function Home() {
       </div>
       <button
         onClick={handleSearch}
-        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded disabled:cursor-progress disabled:bg-blue-200 disabled:hover:bg-blue-200"
+        disabled={isSearching}
       >
         Buscar CEP
       </button>
