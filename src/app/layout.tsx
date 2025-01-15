@@ -21,6 +21,7 @@ export const metadata: Metadata = {
   keywords:
     "CEP, Limoeiro do Norte, consulta de CEP, código postal, busca por rua",
   robots: "index",
+  metadataBase: new URL("http://localhost:3000"),
   openGraph: {
     title: "Buscar CEP | Consultar CEP Online",
     description:
@@ -93,7 +94,7 @@ export default function RootLayout({
             }),
           }}
         ></script>
-        <AdSense pId="8976093869692251" />
+        {/* <AdSense pId="8976093869692251" /> */}
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
