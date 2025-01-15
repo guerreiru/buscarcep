@@ -42,6 +42,10 @@ export default function RootLayout({
         <meta name="description" content={metadata.description!} />
         <meta name="keywords" content={metadata.keywords! as string} />
         <meta name="robots" content={metadata.robots! as string} />
+        <meta
+          name="google-adsense-account"
+          content="ca-pub-8976093869692251"
+        ></meta>
 
         <meta
           property="og:title"
