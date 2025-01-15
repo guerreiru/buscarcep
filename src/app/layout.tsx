@@ -13,14 +13,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Buscar CEP | Consulta CEP Online",
+  title: "Buscar CEP | Consultar CEP Online",
   description:
     "Encontre o CEP de qualquer rua. Faça uma busca fácil e rápida pelo CEP de sua rua!",
   keywords:
     "CEP, Limoeiro do Norte, consulta de CEP, código postal, busca por rua",
   robots: "index",
   openGraph: {
-    title: "Buscar CEP | Consulta CEP Online",
+    title: "Buscar CEP | Consultar CEP Online",
     description:
       "Encontre o CEP de qualquer rua facilidade. Saiba o CEP de cada rua!",
     images: "antevisao.png",
