@@ -121,7 +121,7 @@ export default function Home() {
         className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded disabled:cursor-progress disabled:bg-blue-200 disabled:hover:bg-blue-200"
         disabled={isSearching}
       >
-        Buscar CEP
+        {isSearching ? "Buscando..." : "Buscar CEP"}
       </button>
 
       <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">
