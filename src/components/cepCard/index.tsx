@@ -34,7 +34,7 @@ export function CEPCard({ data }: CepCardProps) {
       )}
       {data.uf && (
         <p>
-          <strong>state:</strong> {data.uf}
+          <strong>Estado:</strong> {data.uf}
         </p>
       )}
     </div>
