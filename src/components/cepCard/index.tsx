@@ -6,7 +6,7 @@ export interface CepCardProps {
 
 export function CEPCard({ data }: CepCardProps) {
   return (
-    <div className="bg-white shadow-md rounded-lg p-4 mb-4 min-w-full dark:*:text-background">
+    <div className="bg-white shadow-md rounded-lg p-4 min-w-full dark:*:text-background">
       {data.cep && (
         <p>
           <strong>CEP:</strong> {data.cep}

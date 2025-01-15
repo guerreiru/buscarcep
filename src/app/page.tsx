@@ -1,5 +1,6 @@
 "use client";
 
+import { AdBanner } from "@/components/adBanner";
 import { CEPCard } from "@/components/cepCard";
 import { Modal } from "@/components/modal";
 import { StateCitySelect } from "@/components/stateCitySelect";
@@ -89,7 +90,7 @@ export default function Home() {
   };
 
   return (
-    <div className="flex flex-col min-h-screen py-8 px-4 lg:max-w-3xl mx-auto">
+    <div className="flex flex-col min-h-screen pt-8 px-4 lg:max-w-3xl mx-auto relative">
       <h1 className="text-3xl font-bold mb-4">Consulta de CEP</h1>
       <p className="mb-6">
         Selecione o estado a cidade e digite o endereço para encontrar o CEP.
@@ -134,6 +135,12 @@ export default function Home() {
           <CEPCard key={index} data={result} />
         ))}
       </div>
+
+      <AdBanner
+        dataAdSlot="5367057535"
+        dataAdFormat="auto"
+        dataFullWidthResponsive={true}
+      />
 
       {isModalOpen && (
         <Modal message="Olá." onClose={closeModal}>
