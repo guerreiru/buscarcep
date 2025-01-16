@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
-import { AdSense } from "@/components/adSense";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -43,10 +42,6 @@ export default function RootLayout({
         <meta name="description" content={metadata.description!} />
         <meta name="keywords" content={metadata.keywords! as string} />
         <meta name="robots" content={metadata.robots! as string} />
-        <meta
-          name="google-adsense-account"
-          content="ca-pub-8976093869692251"
-        ></meta>
 
         <meta
           property="og:title"
@@ -94,7 +89,6 @@ export default function RootLayout({
             }),
           }}
         ></script>
-        {/* <AdSense pId="8976093869692251" /> */}
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
