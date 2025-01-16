@@ -4,10 +4,6 @@ import { CEPCard } from "@/components/cepCard";
 import { Modal } from "@/components/modal";
 import { StateCitySelect } from "@/components/stateCitySelect";
 import { useCepSearch } from "@/hooks/useCepSearch";
-import { Cep } from "@/types/Cep";
-import { cities } from "@/utils/cities";
-import { states } from "@/utils/states";
-import { useEffect, useState } from "react";
 
 export default function Home() {
   const {
@@ -55,7 +51,7 @@ export default function Home() {
         <button
           onClick={handleSearch}
           disabled={isSearching}
-          className="bg-blue-500 hover:bg-blue-600 transition text-white font-bold py-2 px-4 rounded w-full"
+          className="bg-blue-500 hover:bg-blue-600 transition text-white font-bold py-2 px-4 rounded w-full disabled:cursor-progress disabled:bg-blue-200 disabled:hover:bg-blue-200"
         >
           Buscar CEP
         </button>
