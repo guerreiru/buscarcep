@@ -8,7 +8,7 @@ export async function GET(req: Request) {
 
   if (!address || address.trim() === "") {
     return NextResponse.json(
-      { message: "Por favor, insira o endereço." },
+      { message: "Por favor, insira a rua." },
       { status: 400 }
     );
   }
@@ -17,7 +17,7 @@ export async function GET(req: Request) {
 
   if (!addressSanitizer || addressSanitizer.trim() === "") {
     return NextResponse.json(
-      { message: "Por favor, insira um endereço válido." },
+      { message: "Por favor, insira uma rua válido." },
       { status: 400 }
     );
   }

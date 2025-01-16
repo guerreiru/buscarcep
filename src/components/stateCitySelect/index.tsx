@@ -28,7 +28,7 @@ export function StateCitySelect({
   const citiesForSelectedState = cities[selectedState] || [];
 
   return (
-    <div className="flex flex-col mb-4">
+    <div className="flex flex-col">
       <div className="mb-4">
         <label className="block text-sm mb-1">Estado:</label>
         <select

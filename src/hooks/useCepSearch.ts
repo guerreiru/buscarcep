@@ -13,7 +13,7 @@ export function useCepSearch() {
 
   const handleSearch = async () => {
     if (!address.trim()) {
-      setModalMessage("Por favor, insira o endereço.");
+      setModalMessage("Por favor, insira a rua.");
       return;
     }
 

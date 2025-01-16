@@ -25,7 +25,7 @@ export default function Home() {
       <div className="bg-gray-700 text-white p-6 rounded-lg shadow-lg w-full max-w-sm">
         <h1 className="text-2xl font-bold mb-4">Consulta de CEP</h1>
         <p className="text-sm mb-4">
-          Selecione o estado e cidade e digite o endereço para encontrar o CEP.
+          Selecione o estado e cidade e digite a rua para encontrar o CEP.
         </p>
 
         <StateCitySelect
@@ -36,7 +36,7 @@ export default function Home() {
         />
 
         <div className="mb-4">
-          <label className="block text-sm mb-1">Endereço:</label>
+          <label className="block text-sm mb-1">Rua:</label>
           <input
             id="address"
             name="address"
@@ -44,7 +44,7 @@ export default function Home() {
             type="text"
             value={address}
             onChange={(e) => setAddress(e.target.value)}
-            placeholder="Digite o endereço..."
+            placeholder="Digite a rua..."
             className="w-full bg-gray-800 text-white border border-gray-600 p-2 rounded"
           />
         </div>
@@ -56,7 +56,7 @@ export default function Home() {
           Buscar CEP
         </button>
         <p className="text-xs text-gray-400 mt-4">
-          Se o endereço não for encontrado, será exibido o CEP geral da cidade,
+          Se a rua não tiver CEP próprio, será exibido o CEP geral da cidade,
           caso esteja disponível.
         </p>
       </div>
