@@ -25,8 +25,8 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Buscar CEP | Consultar CEP Online",
     description:
-      "Encontre o CEP de qualquer rua facilidade. Saiba o CEP de cada rua!",
-    images: "/antevisao.png",
+      "Encontre o CEP de qualquer rua com facilidade. Saiba o CEP de cada rua!",
+    images: ["/antevisao.png"],
     url: "https://buscarcep.app.br",
     type: "website",
   },
