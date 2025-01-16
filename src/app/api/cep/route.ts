@@ -13,7 +13,7 @@ export async function GET(req: Request) {
     );
   }
 
-  const addressSanitizer = address.replace(/[^a-zA-Z0-9 ]/g, "");
+  const addressSanitizer = address.replace(/[^a-zA-ZÀ-ÖØ-öø-ÿ0-9 ]/g, "");
 
   if (!addressSanitizer || addressSanitizer.trim() === "") {
     return NextResponse.json(
