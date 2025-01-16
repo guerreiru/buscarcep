@@ -30,8 +30,12 @@ export function StateCitySelect({
   return (
     <div className="flex flex-col">
       <div className="mb-4">
-        <label className="block text-sm mb-1">Estado:</label>
+        <label htmlFor="state" className="block text-sm mb-1">
+          Estado:
+        </label>
         <select
+          id="state"
+          name="state"
           className="w-full bg-gray-800 text-white border border-gray-600 p-2 rounded"
           value={selectedState}
           onChange={handleStateChange}
@@ -45,8 +49,12 @@ export function StateCitySelect({
       </div>
 
       <div className="mb-4">
-        <label className="block text-sm mb-1">Cidade:</label>
+        <label htmlFor="city" className="block text-sm mb-1">
+          Cidade:
+        </label>
         <select
+          id="city"
+          name="city"
           className="w-full bg-gray-800 text-white border border-gray-600 p-2 rounded"
           value={selectedCity}
           onChange={handleCityChange}
