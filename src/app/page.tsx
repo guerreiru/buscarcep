@@ -68,6 +68,32 @@ export default function Home() {
       </div>
 
       {modalMessage && <Modal message={modalMessage} onClose={closeModal} />}
+
+      <footer className="bg-gray-800 text-white text-center mt-8">
+        <div className="container mx-auto">
+          <p className="text-sm">
+            Contato:{" "}
+            <a
+              href="mailto:dev.fernandoguerreiro@gmail.com"
+              className="text-blue-400 hover:underline"
+            >
+              dev.fernandoguerreiro@gmail.com
+            </a>
+          </p>
+          <p className="text-sm">
+            Telefone/WhatsApp:{" "}
+            <a
+              href="http://api.whatsapp.com/send?phone=5588999254660"
+              className="text-blue-400 hover:underline"
+            >
+              (88) 99925-4660
+            </a>
+          </p>
+          <p className="text-xs text-gray-500 mt-2">
+            © 2025 Fernando Guerreiro. Todos os direitos reservados.
+          </p>
+        </div>
+      </footer>
     </div>
   );
 }
