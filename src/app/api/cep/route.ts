@@ -1,7 +1,15 @@
+import { sanitizeAddress } from "@/utils/sanitizeAddress";
 import { NextResponse } from "next/server";
+
+function getViaCepUrl(state: string, city: string, address: string): string {
+  return `https://viacep.com.br/ws/${state}/${city}/${encodeURIComponent(
+    address
+  )}/json/`;
+}
 
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
+
   const state = searchParams.get("state") || "CE";
   const city = searchParams.get("city") || "Limoeiro do Norte";
   const address = searchParams.get("address");
@@ -13,24 +21,29 @@ export async function GET(req: Request) {
     );
   }
 
-  const addressSanitizer = address.replace(/[^a-zA-ZÀ-ÖØ-öø-ÿ0-9 ]/g, "");
+  const sanitizedAddress = sanitizeAddress(address);
 
-  if (!addressSanitizer || addressSanitizer.trim() === "") {
+  if (!sanitizedAddress) {
     return NextResponse.json(
-      { message: "Por favor, insira uma rua válido." },
+      { message: "Por favor, insira uma rua válida." },
       { status: 400 }
     );
   }
 
   try {
-    const apiUrl = `https://viacep.com.br/ws/${state}/${city}/${encodeURIComponent(
-      addressSanitizer
-    )}/json/`;
+    const apiUrl = getViaCepUrl(state, city, sanitizedAddress);
     const response = await fetch(apiUrl);
+
+    if (!response.ok) {
+      return NextResponse.json(
+        { message: "Erro ao consultar o ViaCEP.", status: response.status },
+        { status: response.status }
+      );
+    }
 
     const data = await response.json();
 
-    if (data.length === 0 || !response.ok) {
+    if (!data || data.length === 0) {
       return NextResponse.json(
         { message: "Nenhum CEP encontrado." },
         { status: 404 }

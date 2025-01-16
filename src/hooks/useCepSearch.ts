@@ -1,6 +1,8 @@
+import { calculateSimilarity } from "@/utils/calculateSimilarity";
 import { cities } from "@/utils/cities";
 import { states } from "@/utils/states";
-import { useState, useEffect } from "react";
+import { streets } from "@/utils/streets";
+import { useState } from "react";
 
 export function useCepSearch() {
   const [address, setAddress] = useState("");
@@ -21,6 +23,13 @@ export function useCepSearch() {
       .acronym;
     const city = selectedCity || "Limoeiro do Norte";
 
+    const results = streets.filter((street) => {
+      const similarity = calculateSimilarity(address, street.name);
+      return similarity > 0.3;
+    });
+
+    const _address = results.length > 0 ? results[0].name : address;
+
     const cacheKey = `${state}-${city}-${address.trim()}`;
     const cachedResults = localStorage.getItem(cacheKey);
 
@@ -30,9 +39,10 @@ export function useCepSearch() {
     }
 
     setIsSearching(true);
+
     try {
       const response = await fetch(
-        `/api/cep?state=${state}&city=${city}&address=${address}`
+        `/api/cep?state=${state}&city=${city}&address=${_address}`
       );
       const data = await response.json();
 
