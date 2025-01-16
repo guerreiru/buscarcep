@@ -40,7 +40,8 @@ export function useCepSearch() {
         localStorage.setItem(cacheKey, JSON.stringify(data));
         setResults(data);
       } else {
-        setModalMessage("Erro ao buscar o CEP.");
+        const message = data.message || "Erro ao buscar o CEP.";
+        setModalMessage(message);
       }
     } catch {
       setModalMessage("Erro ao buscar o CEP.");

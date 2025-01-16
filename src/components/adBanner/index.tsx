@@ -19,7 +19,7 @@ export function AdBanner({
         {}
       );
     } catch (error) {
-      console.log(error);
+      console.error(error);
     }
   }, []);
   return (

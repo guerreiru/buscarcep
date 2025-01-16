@@ -13,19 +13,24 @@ export async function GET(req: Request) {
     );
   }
 
+  const addressSanitizer = address.replace(/[^a-zA-Z0-9 ]/g, "");
+
+  if (!addressSanitizer || addressSanitizer.trim() === "") {
+    return NextResponse.json(
+      { message: "Por favor, insira um endereço válido." },
+      { status: 400 }
+    );
+  }
+
   try {
     const apiUrl = `https://viacep.com.br/ws/${state}/${city}/${encodeURIComponent(
-      address
+      addressSanitizer
     )}/json/`;
     const response = await fetch(apiUrl);
 
-    if (!response.ok) {
-      throw new Error("Erro ao buscar na API do ViaCEP");
-    }
-
     const data = await response.json();
 
-    if (data.length === 0) {
+    if (data.length === 0 || !response.ok) {
       return NextResponse.json(
         { message: "Nenhum CEP encontrado." },
         { status: 404 }
