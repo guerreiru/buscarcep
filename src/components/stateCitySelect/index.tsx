@@ -29,33 +29,37 @@ export function StateCitySelect({
 
   return (
     <div className="flex flex-col mb-4">
-      <label className="font-semibold mb-2">Estado:</label>
-      <select
-        className="border border-gray-300 rounded-lg p-2 mb-4 text-zinc-800"
-        value={selectedState}
-        onChange={handleStateChange}
-      >
-        {states.map((state) => (
-          <option key={state.acronym} value={state.id}>
-            {state.name}
-          </option>
-        ))}
-      </select>
+      <div className="mb-4">
+        <label className="block text-sm mb-1">Estado:</label>
+        <select
+          className="w-full bg-gray-800 text-white border border-gray-600 p-2 rounded"
+          value={selectedState}
+          onChange={handleStateChange}
+        >
+          {states.map((state) => (
+            <option key={state.acronym} value={state.id}>
+              {state.name}
+            </option>
+          ))}
+        </select>
+      </div>
 
-      <label className="font-semibold mb-2">Cidade:</label>
-      <select
-        className="border border-gray-300 rounded-lg p-2 text-zinc-800"
-        value={selectedCity}
-        onChange={handleCityChange}
-        disabled={!selectedState}
-      >
-        <option value="">Selecione uma cidade</option>
-        {citiesForSelectedState.map((city) => (
-          <option key={city.id} value={city.name}>
-            {city.name}
-          </option>
-        ))}
-      </select>
+      <div className="mb-4">
+        <label className="block text-sm mb-1">Cidade:</label>
+        <select
+          className="w-full bg-gray-800 text-white border border-gray-600 p-2 rounded"
+          value={selectedCity}
+          onChange={handleCityChange}
+          disabled={!selectedState}
+        >
+          <option value="">Selecione uma cidade</option>
+          {citiesForSelectedState.map((city) => (
+            <option key={city.id} value={city.name}>
+              {city.name}
+            </option>
+          ))}
+        </select>
+      </div>
     </div>
   );
 }

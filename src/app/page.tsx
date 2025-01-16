@@ -1,158 +1,75 @@
 "use client";
 
-import { AdBanner } from "@/components/adBanner";
 import { CEPCard } from "@/components/cepCard";
 import { Modal } from "@/components/modal";
 import { StateCitySelect } from "@/components/stateCitySelect";
+import { useCepSearch } from "@/hooks/useCepSearch";
 import { Cep } from "@/types/Cep";
 import { cities } from "@/utils/cities";
 import { states } from "@/utils/states";
 import { useEffect, useState } from "react";
 
 export default function Home() {
-  const [address, setAddress] = useState("");
-  const [results, setResults] = useState<Cep[]>([]);
-  const [modalMessage, setModalMessage] = useState<string | null>(null);
-  const [selectedState, setSelectedState] = useState<keyof typeof cities>("6");
-  const [selectedCity, setSelectedCity] = useState("Limoeiro do Norte");
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [isFirstVisit, setIsFirstVisit] = useState(true);
-  const [isSearching, setIsSearching] = useState(false);
-
-  const modalEndDate = new Date("2025-06-30T23:59:59");
-
-  useEffect(() => {
-    const visitedBefore = localStorage.getItem("visitedBefore");
-    const currentDate = new Date();
-
-    if (!visitedBefore && currentDate <= modalEndDate) {
-      setIsFirstVisit(true);
-      setIsModalOpen(true);
-    } else {
-      setIsFirstVisit(false);
-    }
-  }, []);
-
-  const handleSearch = async () => {
-    if (!address.trim()) {
-      setModalMessage("Por favor, insira o endereço.");
-      return;
-    }
-
-    if (!selectedCity) {
-      setModalMessage("Por favor, selecione uma cidade.");
-      return;
-    }
-
-    const state =
-      states.filter((state) => state.id === selectedState)[0].acronym || "CE";
-    const city = selectedCity || "Limoeiro do Norte";
-
-    const cacheKey = `${state}-${city}-${address.trim()}`;
-    const cachedResults = localStorage.getItem(cacheKey);
-
-    if (cachedResults) {
-      setResults(JSON.parse(cachedResults));
-      return;
-    }
-
-    setResults([]);
-
-    try {
-      setIsSearching(true);
-      const response = await fetch(
-        `https://viacep.com.br/ws/${state}/${city}/${address}/json/`
-      );
-      const data = await response.json();
-
-      if (data.length === 0) {
-        setModalMessage("Nenhum CEP encontrado.");
-        return;
-      }
-
-      // Salva os resultados no cache local
-      localStorage.setItem(cacheKey, JSON.stringify(data));
-      setResults(data);
-    } catch (error) {
-      setModalMessage("Erro ao buscar o CEP.");
-    } finally {
-      setIsSearching(false);
-    }
-  };
-
-  const closeModal = () => {
-    setModalMessage(null);
-    setIsModalOpen(false);
-
-    if (isFirstVisit) {
-      localStorage.setItem("visitedBefore", "true");
-    }
-  };
+  const {
+    address,
+    setAddress,
+    results,
+    selectedState,
+    setSelectedState,
+    selectedCity,
+    setSelectedCity,
+    handleSearch,
+    modalMessage,
+    closeModal,
+    isSearching,
+  } = useCepSearch();
 
   return (
-    <div className="flex flex-col min-h-screen py-8 px-4 lg:max-w-3xl mx-auto relative">
-      <h1 className="text-3xl font-bold mb-4">Consulta de CEP</h1>
-      <p className="mb-6">
-        Selecione o estado a cidade e digite o endereço para encontrar o CEP.
-      </p>
-      <StateCitySelect
-        selectedState={selectedState}
-        setSelectedState={setSelectedState}
-        selectedCity={selectedCity}
-        setSelectedCity={setSelectedCity}
-      />
+    <div className="bg-gradient-to-b from-gray-900 to-gray-800 min-h-screen flex flex-col items-center justify-center p-4">
+      <div className="bg-gray-700 text-white p-6 rounded-lg shadow-lg w-full max-w-sm">
+        <h1 className="text-2xl font-bold mb-4">Consulta de CEP</h1>
+        <p className="text-sm mb-4">
+          Selecione o estado e cidade e digite o endereço para encontrar o CEP.
+        </p>
 
-      <div>
-        <label className="font-semibold mb-2 block" htmlFor="address">
-          Endereço:
-        </label>
-        <input
-          id="address"
-          name="address"
-          required
-          type="text"
-          value={address}
-          onChange={(e) => setAddress(e.target.value)}
-          className="border border-gray-300 rounded-lg p-2 mb-4 w-full max-w placeholder:text-foreground dark:placeholder:text-background dark:text-background"
-          placeholder="Digite o endereço..."
+        <StateCitySelect
+          selectedCity={selectedCity}
+          selectedState={selectedState}
+          setSelectedCity={setSelectedCity}
+          setSelectedState={setSelectedState}
         />
+
+        <div className="mb-4">
+          <label className="block text-sm mb-1">Endereço:</label>
+          <input
+            id="address"
+            name="address"
+            required
+            type="text"
+            value={address}
+            onChange={(e) => setAddress(e.target.value)}
+            placeholder="Digite o endereço..."
+            className="w-full bg-gray-800 text-white border border-gray-600 p-2 rounded"
+          />
+        </div>
+        <button
+          onClick={handleSearch}
+          disabled={isSearching}
+          className="bg-blue-500 hover:bg-blue-600 transition text-white font-bold py-2 px-4 rounded w-full"
+        >
+          Buscar CEP
+        </button>
+        <p className="text-xs text-gray-400 mt-4">
+          Se o endereço não for encontrado, será exibido o CEP geral da cidade,
+          caso esteja disponível.
+        </p>
       </div>
-      <button
-        onClick={handleSearch}
-        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded disabled:cursor-progress disabled:bg-blue-200 disabled:hover:bg-blue-200"
-        disabled={isSearching}
-      >
-        {isSearching ? "Buscando..." : "Buscar CEP"}
-      </button>
 
-      <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">
-        Se o endereço não for encontrado, será exibido o CEP geral da cidade,
-        caso esteja disponível.
-      </p>
-
-      <div className="mt-6 flex flex-wrap gap-2">
+      <div className="mt-6 flex flex-wrap gap-2 w-full max-w-sm">
         {results.map((result, index) => (
           <CEPCard key={index} data={result} />
         ))}
       </div>
-
-      {/* <AdBanner
-        dataAdSlot="5367057535"
-        dataAdFormat="auto"
-        dataFullWidthResponsive="true"
-      /> */}
-
-      {isModalOpen && (
-        <Modal message="Olá." onClose={closeModal}>
-          <p className="dark:text-background">
-            A cidade de Limoeiro do Norte passou por uma atualização importante
-            no sistema de CEP. Antes, todo o município possuía um único CEP, mas
-            agora, a maioria das ruas terá seu próprio CEP individual. Essa
-            mudança visa facilitar a entrega de correspondências e encomendas,
-            proporcionando mais precisão e agilidade nos serviços postais.
-          </p>
-        </Modal>
-      )}
 
       {modalMessage && <Modal message={modalMessage} onClose={closeModal} />}
     </div>
