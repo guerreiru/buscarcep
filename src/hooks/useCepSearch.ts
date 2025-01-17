@@ -1,8 +1,6 @@
-import { calculateSimilarity } from "@/utils/calculateSimilarity";
 import { cities } from "@/utils/cities";
-import { sanitizeAddress } from "@/utils/sanitizeAddress";
+import { findAddressCep } from "@/utils/findAddressCep";
 import { states } from "@/utils/states";
-import { streets } from "@/utils/streets";
 import { useState } from "react";
 
 export function useCepSearch() {
@@ -28,24 +26,14 @@ export function useCepSearch() {
       return;
     }
 
-    const sanitizedAddress = sanitizeAddress(address);
+    const sanitizedAddress = findAddressCep(address);
 
     if (!sanitizedAddress.length) {
       setModalMessage("Por favor, insira uma rua válida.");
       return;
     }
 
-    const matchingAddresses = streets.filter((street) => {
-      const similarity = calculateSimilarity(sanitizedAddress, street.name);
-      return similarity > 0.7;
-    });
-
-    const defaultAddress =
-      matchingAddresses.length > 0
-        ? matchingAddresses[0].name
-        : sanitizedAddress;
-
-    const cacheKey = `${acronym}-${city}-${defaultAddress.trim()}`;
+    const cacheKey = `${acronym}-${city}-${sanitizedAddress.trim()}`;
     const cachedResults = localStorage.getItem(cacheKey);
 
     if (cachedResults) {
@@ -55,11 +43,9 @@ export function useCepSearch() {
 
     setIsSearching(true);
 
-    console.log(sanitizedAddress);
-
     try {
       const response = await fetch(
-        `/api/cep?state=${acronym}&city=${city}&address=${defaultAddress}`
+        `/api/cep?state=${acronym}&city=${city}&address=${sanitizedAddress}`
       );
       const data = await response.json();
 
