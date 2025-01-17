@@ -5,19 +5,21 @@ export default function About() {
         <h2 className="text-3xl font-bold text-blue-300 mb-4">
           Sobre o Projeto
         </h2>
-        <p className="text-lg leading-relaxed mb-6">
+        <p className="text-lg leading-relaxed mb-6 text-white">
           Este site nasceu da necessidade de encontrar rapidamente os novos CEPs
           das ruas da minha cidade,{" "}
-          <span className="font-semibold">Limoeiro do Norte, Ceará</span>.
-          Antes, utilizávamos um CEP geral, mas agora, com a mudança, a maioria
-          das ruas possui um CEP específico.
+          <span className="font-semibold text-white">
+            Limoeiro do Norte, Ceará
+          </span>
+          . Antes, utilizávamos um CEP geral, mas agora, com a mudança, a
+          maioria das ruas possui um CEP específico.
         </p>
-        <p className="text-lg leading-relaxed mb-6">
+        <p className="text-lg leading-relaxed mb-6 text-white">
           A ideia surgiu quando minha namorada precisou do CEP de uma rua e,
           para facilitar a vida dela e de outras pessoas, decidi criar uma
           ferramenta simples e prática.
         </p>
-        <p className="text-lg leading-relaxed mb-6">
+        <p className="text-lg leading-relaxed mb-6 text-white">
           Meu objetivo é ajudar os moradores da região a acessarem informações
           de maneira rápida e eficiente, especialmente para quem ainda está se
           adaptando às mudanças nos CEPs da cidade.
