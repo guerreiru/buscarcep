@@ -14,9 +14,9 @@ export function Header() {
           <Link href="/about" className="hover:text-blue-400">
             Sobre
           </Link>
-          <Link href="/contact" className="hover:text-blue-400">
+          {/* <Link href="/contact" className="hover:text-blue-400">
             Contato
-          </Link>
+          </Link> */}
         </nav>
       </div>
     </header>

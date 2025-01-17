@@ -67,6 +67,12 @@ export default function Contact() {
 
   return (
     <div className="bg-gradient-to-b from-gray-900 to-gray-800 min-h-screen flex flex-col items-center pb-2 py-4 pt-16">
+      <p className="mb-4 text-white">Em manutenção</p>
+    </div>
+  );
+
+  return (
+    <div className="bg-gradient-to-b from-gray-900 to-gray-800 min-h-screen flex flex-col items-center pb-2 py-4 pt-16">
       <div className="bg-gray-700 text-white p-6 rounded-lg shadow-lg w-full max-w-sm">
         <p className="mb-4">
           Entre em contato conosco para enviar dúvidas, sugestões ou informar
