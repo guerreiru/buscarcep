@@ -37,7 +37,7 @@ export function useCepSearch() {
 
     const matchingAddresses = streets.filter((street) => {
       const similarity = calculateSimilarity(sanitizedAddress, street.name);
-      return similarity > 0.3;
+      return similarity > 0.7;
     });
 
     const defaultAddress =
