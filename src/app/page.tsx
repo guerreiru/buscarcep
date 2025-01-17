@@ -22,7 +22,7 @@ export default function Home() {
   } = useCepSearch();
 
   return (
-    <div className="bg-gradient-to-b from-gray-900 to-gray-800 min-h-screen flex flex-col items-center px-1 pt-16 pb-[116px] ">
+    <div className="bg-gradient-to-b from-gray-900 to-gray-800 min-h-screen flex flex-col items-center px-2 pt-16 pb-[116px] ">
       <div className="bg-gray-700 text-white p-6 rounded-lg shadow-lg w-full max-w-sm">
         <p className="mb-4">
           Selecione o estado e cidade e digite a rua para encontrar o CEP.
