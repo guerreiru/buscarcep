@@ -26,7 +26,7 @@ export default function About() {
         </p>
 
         <h3 className="text-2xl font-semibold text-blue-300 mb-4">Sobre mim</h3>
-        <p className="text-lg leading-relaxed">
+        <p className="text-lg leading-relaxed text-white">
           Meu nome é{" "}
           <span className="font-semibold text-blue-300">
             Fernando Guerreiro
