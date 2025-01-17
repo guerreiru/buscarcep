@@ -9,3 +9,5 @@ export const CITY_TO_SEARCH_WITHOUT_NUMBER = [
   "Quixeré",
   "Horizonte",
 ];
+
+export const MAX_MESSAGE_LENGTH = 500;
