@@ -8,5 +8,4 @@ export const CITY_TO_SEARCH_WITHOUT_NUMBER = [
   "Morada Nova",
   "Quixeré",
   "Horizonte",
-  "Fortaleza",
 ];
