@@ -22,10 +22,9 @@ export default function Home() {
   } = useCepSearch();
 
   return (
-    <div className="bg-gradient-to-b from-gray-900 to-gray-800 min-h-screen flex flex-col items-center md:justify-center px-2 py-4">
+    <div className="bg-gradient-to-b from-gray-900 to-gray-800 min-h-screen flex flex-col items-center px-1 pt-16 pb-[116px] ">
       <div className="bg-gray-700 text-white p-6 rounded-lg shadow-lg w-full max-w-sm">
-        <h1 className="text-2xl font-bold mb-4">Consulta de CEP</h1>
-        <p className="text-sm mb-4">
+        <p className="mb-4">
           Selecione o estado e cidade e digite a rua para encontrar o CEP.
         </p>
 
@@ -70,34 +69,6 @@ export default function Home() {
       </div>
 
       {modalMessage && <Modal message={modalMessage} onClose={closeModal} />}
-
-      <footer className=" text-center mt-4 text-white">
-        <div className="container mx-auto">
-          <p className="text-sm mt-2">
-            Contato:{" "}
-            <a
-              href="mailto:dev.fernandoguerreiro@gmail.com"
-              className="hover:text-blue-400 hover:underline"
-              aria-label="Enviar e-mail para dev.fernandoguerreiro@gmail.com"
-            >
-              dev.fernandoguerreiro@gmail.com
-            </a>
-          </p>
-          <p className="text-sm mt-2">
-            Telefone/WhatsApp:{" "}
-            <a
-              href="http://api.whatsapp.com/send?phone=5588999254660"
-              className="hover:text-blue-400 hover:underline"
-              aria-label="Ligar ou mandar uma mensagem no WhatsApp 88 99925 4660"
-            >
-              (88) 99925-4660
-            </a>
-          </p>
-          <p className="text-xs mt-2">
-            © 2025 Fernando Guerreiro. Todos os direitos reservados.
-          </p>
-        </div>
-      </footer>
     </div>
   );
 }
