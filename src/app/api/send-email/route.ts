@@ -8,7 +8,7 @@ export async function POST(req: Request) {
 
     const { name, email, message } = body;
 
-    if (message) {
+    if (!message) {
       return NextResponse.json(
         {
           message: "Mensagem é obrigatória.",
