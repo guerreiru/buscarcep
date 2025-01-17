@@ -1,4 +1,8 @@
-import { CITY_TO_SEARCH_WITHOUT_NUMBER, DEFAULT_CITY } from "@/utils/constants";
+import {
+  CITY_TO_SEARCH_WITHOUT_NUMBER,
+  DEFAULT_CITY,
+  DEFAULT_STATE,
+} from "@/utils/constants";
 import { addressWithOutHouseNumber } from "@/utils/sanitizeAddress";
 import { NextResponse } from "next/server";
 
@@ -11,8 +15,8 @@ function getViaCepUrl(state: string, city: string, address: string): string {
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
 
-  const state = searchParams.get("state") || "CE";
-  const city = searchParams.get("city") || "Limoeiro do Norte";
+  const state = searchParams.get("state") || DEFAULT_STATE;
+  const city = searchParams.get("city") || DEFAULT_CITY;
   const address = searchParams.get("address");
 
   if (!address || address.trim() === "") {
