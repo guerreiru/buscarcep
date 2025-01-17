@@ -1,5 +1,6 @@
 import { calculateSimilarity } from "@/utils/calculateSimilarity";
 import { cities } from "@/utils/cities";
+import { sanitizeAddress } from "@/utils/sanitizeAddress";
 import { states } from "@/utils/states";
 import { streets } from "@/utils/streets";
 import { useState } from "react";
@@ -14,23 +15,37 @@ export function useCepSearch() {
   const [isSearching, setIsSearching] = useState(false);
 
   const handleSearch = async () => {
+    const state = states.find((state) => state.id === selectedState);
+    if (!state) {
+      setModalMessage("Estado não encontrado.");
+      return;
+    }
+    const acronym = state.acronym;
+    const city = selectedCity || "Limoeiro do Norte";
+
     if (!address.trim()) {
       setModalMessage("Por favor, insira a rua.");
       return;
     }
 
-    const state = states.filter((state) => state.id === selectedState)[0]
-      .acronym;
-    const city = selectedCity || "Limoeiro do Norte";
+    const sanitizedAddress = sanitizeAddress(address);
 
-    const results = streets.filter((street) => {
-      const similarity = calculateSimilarity(address, street.name);
+    if (!sanitizedAddress.length) {
+      setModalMessage("Por favor, insira uma rua válida.");
+      return;
+    }
+
+    const matchingAddresses = streets.filter((street) => {
+      const similarity = calculateSimilarity(sanitizedAddress, street.name);
       return similarity > 0.3;
     });
 
-    const _address = results.length > 0 ? results[0].name : address;
+    const defaultAddress =
+      matchingAddresses.length > 0
+        ? matchingAddresses[0].name
+        : sanitizedAddress;
 
-    const cacheKey = `${state}-${city}-${address.trim()}`;
+    const cacheKey = `${acronym}-${city}-${defaultAddress.trim()}`;
     const cachedResults = localStorage.getItem(cacheKey);
 
     if (cachedResults) {
@@ -40,9 +55,11 @@ export function useCepSearch() {
 
     setIsSearching(true);
 
+    console.log(sanitizedAddress);
+
     try {
       const response = await fetch(
-        `/api/cep?state=${state}&city=${city}&address=${_address}`
+        `/api/cep?state=${acronym}&city=${city}&address=${defaultAddress}`
       );
       const data = await response.json();
 
@@ -53,8 +70,8 @@ export function useCepSearch() {
         const message = data.message || "Erro ao buscar o CEP.";
         setModalMessage(message);
       }
-    } catch {
-      setModalMessage("Erro ao buscar o CEP.");
+    } catch (error) {
+      setModalMessage("Erro ao buscar o CEP. Tente novamente mais tarde.");
     } finally {
       setIsSearching(false);
     }
