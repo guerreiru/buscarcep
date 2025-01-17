@@ -1,9 +1,9 @@
+import { addressWithOutHouseNumber } from "@/utils/addressWithOutHouseNumber";
 import {
   CITY_TO_SEARCH_WITHOUT_NUMBER,
   DEFAULT_CITY,
   DEFAULT_STATE,
 } from "@/utils/constants";
-import { addressWithOutHouseNumber } from "@/utils/sanitizeAddress";
 import { NextResponse } from "next/server";
 
 function getViaCepUrl(state: string, city: string, address: string): string {
