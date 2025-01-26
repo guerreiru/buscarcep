@@ -1,4 +1,7 @@
+import { getViaCepUrl } from "@/app/api/cep/route";
+import { addressWithOutHouseNumber } from "@/utils/addressWithOutHouseNumber";
 import { cities } from "@/utils/cities";
+import { CITY_TO_SEARCH_WITHOUT_NUMBER } from "@/utils/constants";
 import { findAddressCep } from "@/utils/findAddressCep";
 import { states } from "@/utils/states";
 import { useState } from "react";
@@ -44,9 +47,19 @@ export function useCepSearch() {
     setIsSearching(true);
 
     try {
-      const response = await fetch(
-        `/api/cep?state=${acronym}&city=${city}&address=${sanitizedAddress}`
-      );
+      let apiUrl = "";
+
+      if (CITY_TO_SEARCH_WITHOUT_NUMBER.includes(city)) {
+        apiUrl = getViaCepUrl(
+          acronym,
+          city,
+          addressWithOutHouseNumber(address)
+        );
+      } else {
+        apiUrl = getViaCepUrl(acronym, city, address);
+      }
+
+      const response = await fetch(apiUrl);
       const data = await response.json();
 
       if (response.ok) {
