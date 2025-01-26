@@ -6,11 +6,7 @@ import {
 } from "@/utils/constants";
 import { NextResponse } from "next/server";
 
-export function getViaCepUrl(
-  state: string,
-  city: string,
-  address: string
-): string {
+function getViaCepUrl(state: string, city: string, address: string): string {
   return `https://viacep.com.br/ws/${state}/${city}/${encodeURIComponent(
     address
   )}/json/`;

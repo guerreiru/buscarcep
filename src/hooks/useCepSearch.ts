@@ -1,10 +1,19 @@
-import { getViaCepUrl } from "@/app/api/cep/route";
 import { addressWithOutHouseNumber } from "@/utils/addressWithOutHouseNumber";
 import { cities } from "@/utils/cities";
 import { CITY_TO_SEARCH_WITHOUT_NUMBER } from "@/utils/constants";
 import { findAddressCep } from "@/utils/findAddressCep";
 import { states } from "@/utils/states";
 import { useState } from "react";
+
+export function getViaCepUrl(
+  state: string,
+  city: string,
+  address: string
+): string {
+  return `https://viacep.com.br/ws/${state}/${city}/${encodeURIComponent(
+    address
+  )}/json/`;
+}
 
 export function useCepSearch() {
   const [address, setAddress] = useState("");
