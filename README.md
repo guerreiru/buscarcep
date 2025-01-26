@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Consulta de CEPs por Nome de Rua 🏠
 
-## Getting Started
+Este projeto é um site desenvolvido para buscar CEPs de ruas de forma simples e intuitiva. A ideia surgiu a partir de uma necessidade real: minha cidade, Limoeiro do Norte, antes possuía um único CEP para toda a cidade, mas recentemente adotou CEPs específicos para cada rua. 
 
-First, run the development server:
+Por isso, criei esta aplicação para facilitar a consulta de CEPs diretamente pelo nome da rua.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 🔗 Acesse o Site
+O projeto está disponível em produção no link abaixo:  
+👉 [buscarcep](https://buscarcep.app.br/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Tecnologias Utilizadas
+- **[Next.js](https://nextjs.org/):** Framework para React, focado em performance e renderização do lado do servidor.
+- **[TypeScript](https://www.typescriptlang.org/):** Superset de JavaScript para garantir tipagem estática e maior segurança no desenvolvimento.
+- **[Tailwind CSS](https://tailwindcss.com/):** Framework de CSS para estilização rápida e moderna.
+- **[API ViaCEP](https://viacep.com.br/):** Serviço gratuito para consultas de CEP.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## ⚙️ Funcionalidades
+- **Busca por nome da rua:** Insira o nome da rua e encontre o CEP correspondente.
+- **Correção de Abreviações:** Identifica e corrige diferenças entre termos como "Av." e "Avenida" para melhorar a precisão dos resultados.
+- **Design Responsivo:** Funciona perfeitamente em dispositivos móveis e desktops.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Desafios Enfrentados
+- **Problema com Abreviações na API ViaCEP:** A API não retorna resultados se o nome da rua for abreviado de forma diferente. Por exemplo, "Avenida Antônio Joaquim" não é encontrado ao buscar por "Av. Antônio Joaquim". Para solucionar isso, implementei ajustes automáticos para lidar com as diferenças.
+- **Performance:** Otimizei o uso da API para garantir que as buscas sejam rápidas e eficientes.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📦 Como Rodar o Projeto Localmente
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/guerreiru/buscarcep.git
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. **Acesse o diretório do projeto:**
+   ```bash
+   cd buscarcep
+
+3. **Instale as dependências:**
+   ```bash
+   npm install
+
+4. **Inicie o servidor de desenvolvimento:**
+   ```bash
+   npm run dev
+
+5. **Abra o navegador:**
+   ```bash
+   O projeto estará rodando em http://localhost:3000
+
+🌟 Contribuições
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request com melhorias e novas ideias.
+
+📞 Contato
+Se tiver dúvidas ou quiser conversar sobre o projeto, entre em contato comigo:
+
+E-mail: [![Gmail Badge](https://img.shields.io/badge/-dev.fernandoguerreiro@gmail.com-EA4335?style=flat-square&logo=Gmail&logoColor=white&link=mailto:dev.fernandoguerreiro@gmail.com)](mailto:dev.fernandoguerreiro@gmail.com)
+
+Linkedin: [![Linkedin Badge](https://img.shields.io/badge/-Fernando%20Guerreiro-1293d2?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/guerreiru/)](https://www.linkedin.com/in/guerreiru/) 
