@@ -65,14 +65,16 @@ export const Modal = ({ message, onClose, children }: ModalProps) => {
             {children}
           </div>
         )}
-        <button
-          ref={closeButtonRef}
-          onClick={onClose}
-          aria-label="Fechar modal"
-          className="bg-red-500 text-white font-bold py-2 px-4 rounded"
-        >
-          Fechar
-        </button>
+        <div className="flex items-center justify-end">
+          <button
+            ref={closeButtonRef}
+            onClick={onClose}
+            aria-label="Fechar modal"
+            className="bg-red-500 text-white font-bold py-2 px-4 rounded"
+          >
+            Fechar
+          </button>
+        </div>
       </div>
     </div>
   );
