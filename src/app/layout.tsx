@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   keywords:
     "CEP, Limoeiro do Norte, consulta de CEP, código postal, busca por rua",
   robots: "index",
-  metadataBase: new URL("http://localhost:3000"),
+  metadataBase: new URL("https://buscarcep.app.br"),
   openGraph: {
     title: "Buscar CEP | Consultar CEP Online",
     description:
