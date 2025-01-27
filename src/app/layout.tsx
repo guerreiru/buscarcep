@@ -60,6 +60,10 @@ export default function RootLayout({
         />
         <meta property="og:url" content={metadata.openGraph!.url as string} />
         <meta property="og:type" content={"website"} />
+        <meta
+          name="google-adsense-account"
+          content="ca-pub-8976093869692251"
+        ></meta>
 
         <link
           rel="apple-touch-icon"
