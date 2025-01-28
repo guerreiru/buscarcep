@@ -52,7 +52,7 @@ export function Footer() {
         <p className="text-sm text-center">
           Gostou do serviço? Apoie a manutenção do site ❤️!{" "}
           <span
-            className="text-gray-200 hover:text-blue-300 hover:underline"
+            className="text-gray-200 hover:text-blue-300 hover:underline cursor-pointer"
             aria-label="Ligar ou mandar uma mensagem no WhatsApp 88 99925 4660"
             onClick={() => setModalOpen(true)}
           >
