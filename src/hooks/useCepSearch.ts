@@ -62,10 +62,10 @@ export function useCepSearch() {
         apiUrl = getViaCepUrl(
           acronym,
           city,
-          addressWithOutHouseNumber(address)
+          addressWithOutHouseNumber(sanitizedAddress)
         );
       } else {
-        apiUrl = getViaCepUrl(acronym, city, address);
+        apiUrl = getViaCepUrl(acronym, city, sanitizedAddress);
       }
 
       const response = await fetch(apiUrl);
