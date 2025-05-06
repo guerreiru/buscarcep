@@ -28,37 +28,28 @@ export function Footer() {
 
   return (
     <footer className=" bg-gray-800 text-white fixed bottom-0 w-full z-50 shadow-md">
-      <div className="flex flex-col lg:flex-row justify-around py-2 items-center flex-wrap gap-2">
-        <p className="text-sm">
-          Contato:{" "}
-          <a
-            href="mailto:dev.fernandoguerreiro@gmail.com"
-            className="hover:text-blue-300 hover:underline"
-            aria-label="Enviar e-mail para dev.fernandoguerreiro@gmail.com"
-          >
-            dev.fernandoguerreiro@gmail.com
-          </a>
-        </p>
-        <p className="text-sm">
-          Telefone/WhatsApp:{" "}
-          <a
-            href="http://api.whatsapp.com/send?phone=5588999254660"
-            className="hover:text-blue-300 hover:underline"
-            aria-label="Ligar ou mandar uma mensagem no WhatsApp 88 99925 4660"
-          >
-            (88) 99925-4660
-          </a>
-        </p>
-        <p className="text-sm text-center">
-          Gostou do serviço? Apoie a manutenção do site ❤️!{" "}
-          <span
-            className="text-gray-200 hover:text-blue-300 hover:underline cursor-pointer"
-            aria-label="Ligar ou mandar uma mensagem no WhatsApp 88 99925 4660"
-            onClick={() => setModalOpen(true)}
-          >
-            Clique aqui para ver o qr code
-          </span>
-        </p>
+      <div className="flex flex-col lg:flex-row justify-around py-2 items-center flex-wrap gap-2 gap-y-3">
+        <a
+          href="mailto:dev.fernandoguerreiro@gmail.com"
+          className="hover:text-blue-300 hover:underline text-sm"
+          aria-label="Enviar e-mail para dev.fernandoguerreiro@gmail.com"
+        >
+          Contato: dev.fernandoguerreiro@gmail.com
+        </a>
+        <a
+          href="http://api.whatsapp.com/send?phone=5588999254660"
+          className="hover:text-blue-300 hover:underline text-sm"
+          aria-label="Ligar ou mandar uma mensagem no WhatsApp 88 99925 4660"
+        >
+          Telefone/WhatsApp: (88) 99925-4660
+        </a>
+        <a
+          href="http://api.whatsapp.com/send?phone=5588999747309"
+          className="hover:text-blue-300 hover:underline text-sm text-green-400"
+          aria-label="Ligar ou mandar uma mensagem no WhatsApp 88 99974-7309"
+        >
+          Curso preparatório para ACS e ACE: (88) 99974-7309
+        </a>
         <p className="text-xs">
           © 2025 Fernando Guerreiro. Todos os direitos reservados.
         </p>
