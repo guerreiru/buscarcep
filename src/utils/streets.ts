@@ -4,4 +4,5 @@ export const streets = [
   { name: "Coronel Francisco Remígio" },
   { name: "Cremilde Osterne" },
   { name: "Cremilde" },
+  { name: "Fidelis" },
 ];
