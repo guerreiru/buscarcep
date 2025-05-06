@@ -7,17 +7,23 @@ export interface CepCardProps {
 }
 
 export function CEPCard({ data }: CepCardProps) {
+  // Cria uma cópia de data e altera o cep, se necessário
+  const cepData = {
+    ...data,
+    cep: data.cep === "62930-000" ? "62937-899" : data.cep,
+  };
+
   const [copySuccess, setCopySuccess] = useState("");
   const hiddenInputRef = useRef<HTMLInputElement | null>(null);
 
   const handleCopyCep = async () => {
-    if (data.cep) {
+    if (cepData.cep) {
       try {
         if (navigator.clipboard && navigator.clipboard.writeText) {
-          await navigator.clipboard.writeText(data.cep);
+          await navigator.clipboard.writeText(cepData.cep);
         } else {
           if (hiddenInputRef.current) {
-            hiddenInputRef.current.value = data.cep;
+            hiddenInputRef.current.value = cepData.cep;
             hiddenInputRef.current.select();
             document.execCommand("copy");
           }
@@ -33,16 +39,15 @@ export function CEPCard({ data }: CepCardProps) {
 
   return (
     <div className="bg-white shadow-md rounded-lg p-4 min-w-full dark:*:text-background flex flex-col gap-1">
-      {/* Input oculto para fallback */}
       <input
         ref={hiddenInputRef}
         type="hidden"
         readOnly
         style={{ display: "none", visibility: "hidden" }}
       />
-      {data.cep && (
+      {cepData.cep && (
         <p className="flex items-center gap-2 relative">
-          <strong>CEP: {data.cep}</strong>
+          <strong>CEP: {cepData.cep}</strong>
           <span
             className="cursor-pointer"
             onClick={handleCopyCep}
@@ -58,19 +63,19 @@ export function CEPCard({ data }: CepCardProps) {
         </p>
       )}
 
-      {data.logradouro && (
+      {cepData.logradouro && (
         <p>
-          <strong>Logradouro:</strong> {data.logradouro}
+          <strong>Logradouro:</strong> {cepData.logradouro}
         </p>
       )}
-      {data.complemento && (
+      {cepData.complemento && (
         <p>
-          <strong>Complemento:</strong> {data.complemento}
+          <strong>Complemento:</strong> {cepData.complemento}
         </p>
       )}
-      {data.bairro && (
+      {cepData.bairro && (
         <p>
-          <strong>Bairro:</strong> {data.bairro}
+          <strong>Bairro:</strong> {cepData.bairro}
         </p>
       )}
     </div>
