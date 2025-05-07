@@ -7,8 +7,8 @@ export default function manifest(): MetadataRoute.Manifest {
     description: "Encontre o CEP de qualquer rua. Consulta rápida e fácil!",
     start_url: "/",
     display: "standalone",
-    background_color: "#fff",
-    theme_color: "#fff",
+    background_color: "#000",
+    theme_color: "#000",
     icons: [
       {
         src: "/android-chrome-192x192.png",
