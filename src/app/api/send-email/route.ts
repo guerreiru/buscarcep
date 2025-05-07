@@ -3,8 +3,6 @@ import { NextResponse } from "next/server";
 import { MAX_MESSAGE_LENGTH } from "@/utils/constants";
 
 export async function POST(req: Request) {
-  console.log("process.env", process.env);
-
   try {
     const body = await req.json();
 
