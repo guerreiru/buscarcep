@@ -4,7 +4,7 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-490",
     logradouro: "Travessa Joao Menezes de Oliveira",
-    bairro: "Antonio Holanda",
+    bairro: "Antônio Holanda",
     localidade: "",
     uf: "",
     complemento: "",
@@ -12,7 +12,7 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-442",
     logradouro: "Manoel Fidelis Maia",
-    bairro: "Antonio Holanda",
+    bairro: "Antônio Holanda",
     localidade: "",
     uf: "",
     complemento: "",
@@ -20,7 +20,7 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-440",
     logradouro: "Manoel Fidelis Maia",
-    bairro: "Antonio Holanda",
+    bairro: "Antônio Holanda",
     localidade: "",
     uf: "",
     complemento: "",
@@ -28,7 +28,7 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-526",
     logradouro: "Higino Lourengo da Silva",
-    bairro: "Antonio Holanda",
+    bairro: "Antônio Holanda",
     localidade: "",
     uf: "",
     complemento: "",
@@ -36,7 +36,7 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-448",
     logradouro: "João Ferreira Freitas",
-    bairro: "Antonio Holanda",
+    bairro: "Antônio Holanda",
     localidade: "",
     uf: "",
     complemento: "",
@@ -44,7 +44,7 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-456",
     logradouro: "José Lopes de Andrade",
-    bairro: "Antonio Holanda",
+    bairro: "Antônio Holanda",
     localidade: "",
     uf: "",
     complemento: "",
@@ -52,7 +52,7 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-506",
     logradouro: "José Nunes Guerreiro Sobrinho",
-    bairro: "Antonio Holanda",
+    bairro: "Antônio Holanda",
     localidade: "",
     uf: "",
     complemento: "",
@@ -60,7 +60,7 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-566",
     logradouro: "Luiz Fortunato de Andrade",
-    bairro: "Antonio Holanda",
+    bairro: "Antônio Holanda",
     localidade: "",
     uf: "",
     complemento: "",
@@ -68,7 +68,7 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-474",
     logradouro: "Maria Carmélia Maia de Andrade",
-    bairro: "Antonio Holanda",
+    bairro: "Antônio Holanda",
     localidade: "",
     uf: "",
     complemento: "",
@@ -76,7 +76,7 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-534",
     logradouro: "Raimunda Amélia de Oliveira",
-    bairro: "Antonio Holanda",
+    bairro: "Antônio Holanda",
     localidade: "",
     uf: "",
     complemento: "",
@@ -84,7 +84,7 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-482",
     logradouro: "Regina Ferreira de Araujo",
-    bairro: "Antonio Holanda",
+    bairro: "Antônio Holanda",
     localidade: "",
     uf: "",
     complemento: "",
