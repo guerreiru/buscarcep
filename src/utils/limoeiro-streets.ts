@@ -11,7 +11,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62936-442",
-    logradouro: "Manoel Fidelis Maia até 99999 lado impar av",
+    logradouro: "Manoel Fidelis Maia",
     bairro: "Antonio Holanda",
     localidade: "",
     uf: "",
@@ -19,7 +19,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62936-440",
-    logradouro: "Manoel Fidelis Maia de 2 ao fim lado par av",
+    logradouro: "Manoel Fidelis Maia",
     bairro: "Antonio Holanda",
     localidade: "",
     uf: "",
@@ -91,7 +91,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62936-580",
-    logradouro: "Presidente Epitácio Pessoa lado par",
+    logradouro: "Presidente Epitácio Pessoa",
     bairro: "Antônio Holanda",
     localidade: "",
     uf: "",
@@ -411,7 +411,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-302",
-    logradouro: "Estevao Remigio de Freitas de 2451/2452 ao fim",
+    logradouro: "Estevao Remigio de Freitas",
     bairro: "Boa Fé",
     localidade: "",
     uf: "",
@@ -427,7 +427,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-270",
-    logradouro: "Francisco Nunes Guerreiro até 2175 lado impar",
+    logradouro: "Francisco Nunes Guerreiro",
     bairro: "Boa Fé",
     localidade: "",
     uf: "",
@@ -475,7 +475,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-272",
-    logradouro: "Joaquim Evaristo Gadelha de 3441/3442 ao fim",
+    logradouro: "Joaquim Evaristo Gadelha",
     bairro: "Boa Fé",
     localidade: "",
     uf: "",
@@ -531,7 +531,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-376",
-    logradouro: "José de Castro Maia de Freitas de 546/547 ao fim",
+    logradouro: "José de Castro Maia de Freitas",
     bairro: "Boa Fé",
     localidade: "",
     uf: "",
@@ -547,7 +547,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-326",
-    logradouro: "José Ferreira Sombra até 1999/2000",
+    logradouro: "José Ferreira Sombra",
     bairro: "Boa Fé",
     localidade: "",
     uf: "",
@@ -563,7 +563,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-308",
-    logradouro: "José Hamilton de Oliveira de 643/644 ao fim",
+    logradouro: "José Hamilton de Oliveira",
     bairro: "Boa Fé",
     localidade: "",
     uf: "",
@@ -579,7 +579,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-300",
-    logradouro: "Lucia Baltazar Costa até 99998/99999",
+    logradouro: "Lucia Baltazar Costa",
     bairro: "Boa Fé",
     localidade: "",
     uf: "",
@@ -643,7 +643,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-400",
-    logradouro: "Travessa Manuel Luis de Freitas 03",
+    logradouro: "Travessa Manuel Luis de Freitas",
     bairro: "Boa Fé",
     localidade: "",
     uf: "",
@@ -651,7 +651,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-398",
-    logradouro: "Travessa Manuel Luis de Freitas 04",
+    logradouro: "Travessa Manuel Luis de Freitas",
     bairro: "Boa Fé",
     localidade: "",
     uf: "",
@@ -667,7 +667,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-372",
-    logradouro: "Marina Mendes de 1650/1651 ao fim",
+    logradouro: "Marina Mendes",
     bairro: "Boa Fé",
     localidade: "",
     uf: "",
@@ -723,7 +723,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-294",
-    logradouro: "Raimundo Mendes Guerreiro até 1117/1118",
+    logradouro: "Raimundo Mendes Guerreiro",
     bairro: "Boa Fé",
     localidade: "",
     uf: "",
@@ -787,7 +787,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-278",
-    logradouro: "José Lopes Maranhdo de 3452 a 4098 lado par",
+    logradouro: "José Lopes Maranhdo",
     bairro: "Boa Fé",
     localidade: "",
     uf: "",
@@ -795,7 +795,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-316",
-    logradouro: "Sabino Roberto de Freitas de 3327 ao fim lado impar",
+    logradouro: "Sabino Roberto",
     bairro: "Boa Fé",
     localidade: "",
     uf: "",
@@ -891,7 +891,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-058",
-    logradouro: "Francisco Holanda de Oliveira de 739/740 ao fim",
+    logradouro: "Francisco Holanda",
     bairro: "Bom Nome",
     localidade: "",
     uf: "",
@@ -899,7 +899,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-152",
-    logradouro: "Raimundo Mendes Guerreiro de 1119/1120 ao fim",
+    logradouro: "Raimundo Mendes Guerreiro",
     bairro: "Bom Nome",
     localidade: "",
     uf: "",
@@ -923,7 +923,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-126",
-    logradouro: "Rua Francisco Dantas Bandeira - Assis Bandeira",
+    logradouro: "Rua Francisco Dantas Bandeira",
     bairro: "Bom Nome",
     localidade: "",
     uf: "",
@@ -955,7 +955,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-052",
-    logradouro: "Francisco Nunes Guerreiro de 2176/2177 ao fim",
+    logradouro: "Francisco Nunes Guerreiro",
     bairro: "Bom Nome",
     localidade: "",
     uf: "",
@@ -987,7 +987,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-044",
-    logradouro: "Doutor Gaspar de Oliveira de 2357/2358 ao fim",
+    logradouro: "Doutor Gaspar",
     bairro: "Bom Nome",
     localidade: "",
     uf: "",
@@ -1027,7 +1027,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-150",
-    logradouro: "Joaquim Evaristo Gadelha de 3801 ao fim lado impar ",
+    logradouro: "Joaquim Evaristo Gadelha",
     bairro: "Bom nome",
     localidade: "",
     uf: "",
@@ -1075,7 +1075,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-040",
-    logradouro: "José Lopes Maranhdo de 2951/2952 ao fim",
+    logradouro: "José Lopes Maranhdo",
     bairro: "Bom Nome",
     localidade: "",
     uf: "",
@@ -1083,7 +1083,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-094",
-    logradouro: "Lauro Rebouças Filho até 1698/1699",
+    logradouro: "Lauro Rebouças Filho",
     bairro: "Bom Nome",
     localidade: "",
     uf: "",
@@ -1099,7 +1099,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-064",
-    logradouro: "Manfredo de Oliveira Lima de 985/986 ao fim",
+    logradouro: "Manfredo",
     bairro: "Bom Nome",
     localidade: "",
     uf: "",
@@ -1107,7 +1107,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-074",
-    logradouro: "Manuel Cassimiro da Silva - Manoel Amara",
+    logradouro: "Manuel Cassimiro da Silva",
     bairro: "Bom Nome",
     localidade: "",
     uf: "",
@@ -1187,7 +1187,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-070",
-    logradouro: "Raimundo Felipe Neto de 1000/1001 ao fim",
+    logradouro: "Raimundo Felipe Neto",
     bairro: "Bom Nome",
     localidade: "",
     uf: "",
@@ -1203,7 +1203,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-066",
-    logradouro: "Raimundo Remigio de Freitas de 681/682 a 1799/1800",
+    logradouro: "Raimundo Remigio",
     bairro: "Bom Nome",
     localidade: "",
     uf: "",
@@ -1235,7 +1235,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-154",
-    logradouro: "Lucia Baltazar Costa de 4450 ao fim lado par",
+    logradouro: "Lucia Baltazar Costa",
     bairro: "Bom Nome",
     localidade: "",
     uf: "",
@@ -1243,7 +1243,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-098",
-    logradouro: "Luis Gonzaga de Oliveira Osterne lado par",
+    logradouro: "Luis Gonzaga de Oliveira Osterne",
     bairro: "Bom Nome",
     localidade: "",
     uf: "",
@@ -1251,7 +1251,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-072",
-    logradouro: "Manoel Saraiva de 871 ao fim lado impar",
+    logradouro: "Manoel Saraiva",
     bairro: "Bom Nome",
     localidade: "",
     uf: "",
@@ -1259,7 +1259,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62936-036",
-    logradouro: "Cosme Damião da Silva até 3589 - lado impar",
+    logradouro: "Cosme Damião da Silva",
     bairro: "Brotolandia",
     localidade: "",
     uf: "",
@@ -1299,7 +1299,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62936-010",
-    logradouro: "José Osterne Juniode 850/851 ao fim",
+    logradouro: "José Osterne Juniode",
     bairro: "Brotolandia",
     localidade: "",
     uf: "",
@@ -1307,7 +1307,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62936-028",
-    logradouro: "Limério Osterne de 1300/1301 a 1598/1599",
+    logradouro: "Limério Osterne",
     bairro: "Brotolandia",
     localidade: "",
     uf: "",
@@ -1323,7 +1323,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62936-008",
-    logradouro: "Travessa Raimundo Fidélis de 1650/1651 ao fim",
+    logradouro: "Travessa Raimundo Fidélis",
     bairro: "Brotolandia",
     localidade: "",
     uf: "",
@@ -1331,7 +1331,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62936-014",
-    logradouro: "Sousa Andrade de 141/142 a 609/610",
+    logradouro: "Sousa Andrade",
     bairro: "Brotolandia",
     localidade: "",
     uf: "",
@@ -1347,7 +1347,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62936-022",
-    logradouro: "Napoleado Nunes Maia de 122 a 730 lado par",
+    logradouro: "Napoleado Nunes Maia",
     bairro: "Brotolandia",
     localidade: "",
     uf: "",
@@ -1355,7 +1355,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62936-004",
-    logradouro: "Padre Vicente de 806 a 1730 lado par",
+    logradouro: "Padre Vicente",
     bairro: "Brotolandia",
     localidade: "",
     uf: "",
@@ -1363,7 +1363,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62936-030",
-    logradouro: "Francisco Célio de Oliveira Castro até 2298/2299",
+    logradouro: "Francisco Célio",
     bairro: "Brotolândia",
     localidade: "",
     uf: "",
@@ -1371,7 +1371,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62936-006",
-    logradouro: "Coronel Sindulfo Chaves de 939/940 a 1639/1640",
+    logradouro: "Coronel Sindulfo Chaves",
     bairro: "Brotolândia",
     localidade: "",
     uf: "",
@@ -1379,7 +1379,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62936-016",
-    logradouro: "Joaquim Rodrigues dos Santos de 161/162 a 889/890",
+    logradouro: "Joaquim Rodrigues dos Santos",
     bairro: "Brotolândia",
     localidade: "",
     uf: "",
@@ -1387,7 +1387,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-670",
-    logradouro: "Rua Francisco Carneiro de Araújo de 4108 ao fim - lado par",
+    logradouro: "Rua Francisco Carneiro  -",
     bairro: "Canafístula",
     localidade: "",
     uf: "",
@@ -1403,7 +1403,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-019",
-    logradouro: "David Gadelha até 988/989",
+    logradouro: "David Gadelha",
     bairro: "Centro",
     localidade: "",
     uf: "",
@@ -1411,7 +1411,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-083",
-    logradouro: "Avenida dos Expedicionários até 3152/3153",
+    logradouro: "Avenida dos Expedicionários",
     bairro: "Centro",
     localidade: "",
     uf: "",
@@ -1435,7 +1435,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-035",
-    logradouro: "Coronel Francisco Remígio até 735 lado impar",
+    logradouro: "Coronel Francisco Remígio",
     bairro: "Centro",
     localidade: "",
     uf: "",
@@ -1443,7 +1443,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-037",
-    logradouro: "Coronel Francisco Remígio até 738 lado par",
+    logradouro: "Coronel Francisco Remígio",
     bairro: "Centro",
     localidade: "",
     uf: "",
@@ -1491,7 +1491,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-063",
-    logradouro: "Jaime Leonel Chaves até 199/200",
+    logradouro: "Jaime Leonel Chaves",
     bairro: "Centro",
     localidade: "",
     uf: "",
@@ -1499,7 +1499,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-029",
-    logradouro: "Capitão João Eduardo até 1179/1180",
+    logradouro: "Capitão João Eduardo",
     bairro: "Centro",
     localidade: "",
     uf: "",
@@ -1507,7 +1507,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-011",
-    logradouro: "João Maria de Freitas lado par ",
+    logradouro: "João Maria de Freitas",
     bairro: "Centro",
     localidade: "",
     uf: "",
@@ -1547,7 +1547,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-027",
-    logradouro: "Coronel José Nunes lado par",
+    logradouro: "Coronel José Nunes",
     bairro: "Centro",
     localidade: "",
     uf: "",
@@ -1563,7 +1563,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-005",
-    logradouro: "José Satino até 299/300",
+    logradouro: "José Satino",
     bairro: "Centro",
     localidade: "",
     uf: "",
@@ -1595,7 +1595,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-081",
-    logradouro: "Manoel Saraiva até 321/322",
+    logradouro: "Manoel Saraiva",
     bairro: "Centro",
     localidade: "",
     uf: "",
@@ -1627,7 +1627,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-087",
-    logradouro: "Raimundo Felipe Neto até 432/433",
+    logradouro: "Raimundo Felipe Neto",
     bairro: "Centro",
     localidade: "",
     uf: "",
@@ -1635,7 +1635,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-007",
-    logradouro: "Travessa Raimundo Fidélis até 1648/1649",
+    logradouro: "Travessa Raimundo Fidélis",
     bairro: "Centro",
     localidade: "",
     uf: "",
@@ -1651,7 +1651,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-073",
-    logradouro: "Sabino Roberto de Freitas até 3189/3190",
+    logradouro: "Sabino Roberto",
     bairro: "Centro",
     localidade: "",
     uf: "",
@@ -1659,7 +1659,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-043",
-    logradouro: "Coronel Serafim Chaves até 781 lado impar",
+    logradouro: "Coronel Serafim Chaves",
     bairro: "Centro",
     localidade: "",
     uf: "",
@@ -1667,7 +1667,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-045",
-    logradouro: "Coronel Serafim Chaves até 800 lado par",
+    logradouro: "Coronel Serafim Chaves",
     bairro: "Centro",
     localidade: "",
     uf: "",
@@ -1675,7 +1675,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-009",
-    logradouro: "Coronel Sindulfo Chaves de 1641/1642 ao fim",
+    logradouro: "Coronel Sindulfo Chaves",
     bairro: "Centro",
     localidade: "",
     uf: "",
@@ -1683,7 +1683,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-065",
-    logradouro: "Coronel José Estácio de 2 ao fim - lado par",
+    logradouro: "Coronel José Estácio  -",
     bairro: "Centro",
     localidade: "",
     uf: "",
@@ -1691,7 +1691,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-089",
-    logradouro: "Manfredo de Oliveira Lima até 503 lado impar",
+    logradouro: "Manfredo",
     bairro: "Centro",
     localidade: "",
     uf: "",
@@ -1699,7 +1699,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-085",
-    logradouro: "Cônego  Mizael Alves de Souza lado par",
+    logradouro: "Cônego  Mizael Alves de Souza",
     bairro: "Centro",
     localidade: "",
     uf: "",
@@ -1723,7 +1723,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-236",
-    logradouro: "Coronel Francisco Remígio de 1305 ao fim lado impar",
+    logradouro: "Coronel Francisco Remígio",
     bairro: "Doutor José Simões",
     localidade: "",
     uf: "",
@@ -1731,7 +1731,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-190",
-    logradouro: "Doutor Gaspar de Oliveira de 947 a 1749 lado impar",
+    logradouro: "Doutor Gaspar",
     bairro: "Doutor José Simões",
     localidade: "",
     uf: "",
@@ -1747,7 +1747,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-208",
-    logradouro: "João Chagas dos Reis de 1356/1357 ao fim",
+    logradouro: "João Chagas dos Reis",
     bairro: "Doutor José Simões",
     localidade: "",
     uf: "",
@@ -1755,7 +1755,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-228",
-    logradouro: "Capitão João Eduardo de 1721/1722 ao fim",
+    logradouro: "Capitão João Eduardo",
     bairro: "Doutor José Simões",
     localidade: "",
     uf: "",
@@ -1787,7 +1787,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-194",
-    logradouro: "José Brito Nogueira até 279/280",
+    logradouro: "José Brito Nogueira",
     bairro: "Doutor José Simões",
     localidade: "",
     uf: "",
@@ -1803,7 +1803,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-222",
-    logradouro: "Coronel José Nunes lado par",
+    logradouro: "Coronel José Nunes",
     bairro: "Doutor José Simões",
     localidade: "",
     uf: "",
@@ -1811,7 +1811,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-200",
-    logradouro: "Luiz Vicente Ferreira Lima até 1997/1998",
+    logradouro: "Luiz Vicente Ferreira Lima",
     bairro: "Doutor José Simões",
     localidade: "",
     uf: "",
@@ -1835,7 +1835,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-206",
-    logradouro: "Padre Santos até 1686/1687",
+    logradouro: "Padre Santos",
     bairro: "Doutor José Simões",
     localidade: "",
     uf: "",
@@ -1867,7 +1867,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-214",
-    logradouro: "Rosa Gadelha dos Santos de 1376/1377 ao fim",
+    logradouro: "Rosa Gadelha dos Santos",
     bairro: "Doutor José Simões",
     localidade: "",
     uf: "",
@@ -1875,7 +1875,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-212",
-    logradouro: "Vilmar Oliveira de Andrade de 1375/1376 ao fim",
+    logradouro: "Vilmar Oliveira",
     bairro: "Doutor José Simões",
     localidade: "",
     uf: "",
@@ -2003,7 +2003,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-158",
-    logradouro: "Napoledo Nunes Maia até 119/120",
+    logradouro: "Napoledo Nunes Maia",
     bairro: "Joao XXIII",
     localidade: "",
     uf: "",
@@ -2011,7 +2011,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-124",
-    logradouro: "Estevao Remigio de Freitas até 738/739",
+    logradouro: "Estevao Remigio",
     bairro: "João XXIII",
     localidade: "",
     uf: "",
@@ -2035,7 +2035,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-122",
-    logradouro: "Coronel Francisco Remígio de 737 a 1303 lado impar",
+    logradouro: "Coronel Francisco Remígio",
     bairro: "João XXIII",
     localidade: "",
     uf: "",
@@ -2043,7 +2043,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-138",
-    logradouro: "Doutor Gaspar de Oliveira de 902 a 1750 lado par",
+    logradouro: "Doutor Gaspar",
     bairro: "João XXIII",
     localidade: "",
     uf: "",
@@ -2051,7 +2051,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-142",
-    logradouro: "Capitão João Eduardo de 1181/1182 a 1719/1720",
+    logradouro: "Capitão João Eduardo",
     bairro: "João XXIII",
     localidade: "",
     uf: "",
@@ -2075,7 +2075,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-130",
-    logradouro: "Joaquim Evaristo Gadelha até 2279/2280",
+    logradouro: "Joaquim Evaristo Gadelha",
     bairro: "João XXIII",
     localidade: "",
     uf: "",
@@ -2083,7 +2083,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-134",
-    logradouro: "José Lopes Maranhdo até 2298/2299",
+    logradouro: "José Lopes Maranhdo",
     bairro: "João XXIII",
     localidade: "",
     uf: "",
@@ -2091,7 +2091,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-144",
-    logradouro: "Coronel José Nunes lado par",
+    logradouro: "Coronel José Nunes",
     bairro: "João XXIII",
     localidade: "",
     uf: "",
@@ -2099,7 +2099,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-166",
-    logradouro: "José Satino de 700/701 ao fim",
+    logradouro: "José Satino",
     bairro: "João XXIII",
     localidade: "",
     uf: "",
@@ -2123,7 +2123,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-162",
-    logradouro: "Sousa Andrade até 139/140",
+    logradouro: "Sousa Andrade",
     bairro: "João XXIII",
     localidade: "",
     uf: "",
@@ -2131,7 +2131,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-156",
-    logradouro: "Padre Vicente de 1127 ao fim lado impar",
+    logradouro: "Padre Vicente",
     bairro: "João XXIII",
     localidade: "",
     uf: "",
@@ -2139,7 +2139,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62936-042",
-    logradouro: "David Gadelha de 990/991 ao fim",
+    logradouro: "David Gadelha",
     bairro: "Limoeirinho",
     localidade: "",
     uf: "",
@@ -2195,7 +2195,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62936-040",
-    logradouro: "Joao Maria de Freitas lado impar ",
+    logradouro: "Joao Maria de Freitas lado impar",
     bairro: "Limoeirinho",
     localidade: "",
     uf: "",
@@ -2203,7 +2203,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62936-054",
-    logradouro: "Joaquim Rodrigues dos Santos até 159/160",
+    logradouro: "Joaquim Rodrigues dos Santos",
     bairro: "Limoeirinho",
     localidade: "",
     uf: "",
@@ -2243,7 +2243,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62936-070",
-    logradouro: "Limério Osterne até 1298/1299",
+    logradouro: "Limério Osterne",
     bairro: "Limoeirinho",
     localidade: "",
     uf: "",
@@ -2267,7 +2267,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62936-086",
-    logradouro: "Raimunda Ferreira de Azevedo - Vózinha",
+    logradouro: "Raimunda Ferreira de Azevedo",
     bairro: "Limoeirinho",
     localidade: "",
     uf: "",
@@ -2291,7 +2291,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62936-046",
-    logradouro: "Padre Vicente até 804/805",
+    logradouro: "Padre Vicente",
     bairro: "Limoeirinho",
     localidade: "",
     uf: "",
@@ -2299,7 +2299,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-384",
-    logradouro: "Francisco Carneiro de Araujo até 99998/99999",
+    logradouro: "Francisco Carneiro de Araujo",
     bairro: "Luis Alves Freitas",
     localidade: "",
     uf: "",
@@ -2531,7 +2531,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-420",
-    logradouro: "José de Castro Maia de Freitas até 544/545",
+    logradouro: "José",
     bairro: "Luis Alves Freitas",
     localidade: "",
     uf: "",
@@ -2539,7 +2539,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-326",
-    logradouro: "José Ferreira Sombra de 2001/2002 ao fim",
+    logradouro: "José Ferreira Sombra",
     bairro: "Luis Alves Freitas",
     localidade: "",
     uf: "",
@@ -2563,7 +2563,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-440",
-    logradouro: "José Roberto Régis até 99999 lado impar av",
+    logradouro: "José Roberto Régis",
     bairro: "Luis Alves Freitas",
     localidade: "",
     uf: "",
@@ -2571,7 +2571,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-438",
-    logradouro: "José Roberto Régis de 2 ao fim lado par av",
+    logradouro: "José Roberto Régis  av",
     bairro: "Luis Alves Freitas",
     localidade: "",
     uf: "",
@@ -2659,7 +2659,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-418",
-    logradouro: "Marina Mendes até 1648/1649",
+    logradouro: "Marina Mendes",
     bairro: "Luis Alves Freitas",
     localidade: "",
     uf: "",
@@ -2699,7 +2699,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-336",
-    logradouro: "Pedro Coelho até 249/250",
+    logradouro: "Pedro Coelho",
     bairro: "Luis Alves Freitas",
     localidade: "",
     uf: "",
@@ -2755,7 +2755,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-340",
-    logradouro: "Manfredo de Oliveira Lima até 252 lado par",
+    logradouro: "Manfredo",
     bairro: "Luis Alves Freitas",
     localidade: "",
     uf: "",
@@ -2763,7 +2763,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-320",
-    logradouro: "Sabino Roberto de Freitas de 3194 ao fim lado par",
+    logradouro: "Sabino Roberto",
     bairro: "Luis Alves Freitas",
     localidade: "",
     uf: "",
@@ -2771,7 +2771,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-000",
-    logradouro: "Coronel José Estácio até 99999 - lado ímpar",
+    logradouro: "Coronel José Estácio",
     bairro: "Monsenhor Otávio",
     localidade: "",
     uf: "",
@@ -2795,7 +2795,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-006",
-    logradouro: "Estevao Remigio de Freitas de 740/741 a 1395/1396",
+    logradouro: "Estevao Remigio",
     bairro: "Monsenhor Otávio",
     localidade: "",
     uf: "",
@@ -2827,7 +2827,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-024",
-    logradouro: "Coronel Francisco Remígio de 740 ao fim lado par",
+    logradouro: "Coronel Francisco Remígio",
     bairro: "Monsenhor Otávio",
     localidade: "",
     uf: "",
@@ -2835,7 +2835,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-062",
-    logradouro: "Isabel Sousa Bessa - Dona Isabel",
+    logradouro: "Isabel Sousa Bessa",
     bairro: "Monsenhor Otávio",
     localidade: "",
     uf: "",
@@ -2851,7 +2851,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-012",
-    logradouro: "Jaime Leonel Chaves de 201/202 ao fim",
+    logradouro: "Jaime Leonel Chaves",
     bairro: "Monsenhor Otávio",
     localidade: "",
     uf: "",
@@ -2867,7 +2867,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-028",
-    logradouro: "Joaquim Evaristo Gadelha de 2281/2282 a 2871/2872",
+    logradouro: "Joaquim Evaristo Gadelha",
     bairro: "Monsenhor Otávio",
     localidade: "",
     uf: "",
@@ -2891,7 +2891,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-002",
-    logradouro: "José Hamilton de Oliveira até 159/160",
+    logradouro: "José Hamilton",
     bairro: "Monsenhor Otávio",
     localidade: "",
     uf: "",
@@ -2907,7 +2907,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-032",
-    logradouro: "José Lopes Maranhdo de 2300/2301 a 2948/2949",
+    logradouro: "José Lopes Maranhdo",
     bairro: "Monsenhor Otávio",
     localidade: "",
     uf: "",
@@ -2915,7 +2915,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-056",
-    logradouro: "Lauro Rebouças Filho de 1700/1701 ao fim",
+    logradouro: "Lauro Rebouças Filho",
     bairro: "Monsenhor Otávio",
     localidade: "",
     uf: "",
@@ -2939,7 +2939,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-058",
-    logradouro: "Raimundo Remigio de Freitas de 1651/1652 ao fim",
+    logradouro: "Raimundo Remigio",
     bairro: "Monsenhor Otávio",
     localidade: "",
     uf: "",
@@ -2963,7 +2963,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-016",
-    logradouro: "Coronel Serafim Chaves de 783/784 ao fim",
+    logradouro: "Coronel Serafim Chaves",
     bairro: "Monsenhor Otávio",
     localidade: "",
     uf: "",
@@ -3003,7 +3003,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-004",
-    logradouro: "Manoel Saraiva de 324 ao fim lado par",
+    logradouro: "Manoel Saraiva",
     bairro: "Monsenhor Otávio",
     localidade: "",
     uf: "",
@@ -3011,7 +3011,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-238",
-    logradouro: "Rodovia Custódio Saraiva de Menezes de 1500 ao fim - lado par",
+    logradouro: "Rodovia Custódio Saraiva  -",
     bairro: "Monsenhor Otávio",
     localidade: "",
     uf: "",
@@ -3019,8 +3019,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-042",
-    logradouro:
-      "Rodovia Custódio Saraiva de Menezes de 1501 ao fim - lado impar",
+    logradouro: "Rodovia Custódio Saraiva",
     bairro: "Monsenhor Otávio",
     localidade: "",
     uf: "",
@@ -3036,7 +3035,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-374",
-    logradouro: "Cosme Damião da Silva de 3800/3801 ao fim",
+    logradouro: "Cosme Damião da Silva",
     bairro: "Pitombeira",
     localidade: "",
     uf: "",
@@ -3060,7 +3059,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-376",
-    logradouro: "Rua Francisco das Chagas de Moura - Palmeirinha",
+    logradouro: "Rua Francisco das Chagas de Moura",
     bairro: "Pitombeira",
     localidade: "",
     uf: "",
@@ -3084,7 +3083,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-316",
-    logradouro: "Doutor Gaspar de Oliveira até 944/945",
+    logradouro: "Doutor Gaspar",
     bairro: "Pitombeira",
     localidade: "",
     uf: "",
@@ -3108,7 +3107,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-358",
-    logradouro: "João Afonso Coelho - Didi Coelho",
+    logradouro: "João Afonso Coelho",
     bairro: "Pitombeira",
     localidade: "",
     uf: "",
@@ -3116,7 +3115,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-400",
-    logradouro: "João Chagas dos Reis até 1354/1355",
+    logradouro: "João Chagas dos Reis",
     bairro: "Pitombeira",
     localidade: "",
     uf: "",
@@ -3164,7 +3163,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-384",
-    logradouro: "José Brito Nogueira de 281/282 ao fim",
+    logradouro: "José Brito Nogueira",
     bairro: "Pitombeira",
     localidade: "",
     uf: "",
@@ -3172,7 +3171,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-348",
-    logradouro: "Rua José Carneiro da Silva - Zé Dim",
+    logradouro: "Rua José Carneiro da Silva",
     bairro: "Pitombeira",
     localidade: "",
     uf: "",
@@ -3188,7 +3187,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-338",
-    logradouro: "Travessa José Firmino dos Santos 02",
+    logradouro: "Travessa José Firmino dos Santos",
     bairro: "Pitombeira",
     localidade: "",
     uf: "",
@@ -3196,7 +3195,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-340",
-    logradouro: "Travessa José Firmino dos Santos 03",
+    logradouro: "Travessa José Firmino dos Santos",
     bairro: "Pitombeira",
     localidade: "",
     uf: "",
@@ -3204,7 +3203,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-342",
-    logradouro: "Travessa José Firmino dos Santos 04",
+    logradouro: "Travessa José Firmino dos Santos",
     bairro: "Pitombeira",
     localidade: "",
     uf: "",
@@ -3212,7 +3211,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-388",
-    logradouro: "José Moreira Chaves - Zé Casinha",
+    logradouro: "José Moreira Chaves",
     bairro: "Pitombeira",
     localidade: "",
     uf: "",
@@ -3228,7 +3227,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-322",
-    logradouro: "Limério Osterne de 1600/1601 ao fim",
+    logradouro: "Limério Osterne",
     bairro: "Pitombeira",
     localidade: "",
     uf: "",
@@ -3244,7 +3243,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-408",
-    logradouro: "Luiz Vicente Ferreira Lima de 1999/2000 ao fim",
+    logradouro: "Luiz Vicente Ferreira Lima",
     bairro: "Pitombeira",
     localidade: "",
     uf: "",
@@ -3348,7 +3347,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-404",
-    logradouro: "Rosa Gadelha dos Santos até 1618/1619",
+    logradouro: "Rosa Gadelha dos Santos",
     bairro: "Pitombeira",
     localidade: "",
     uf: "",
@@ -3356,7 +3355,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-410",
-    logradouro: "Padre Santos de 1688/1689 ao fim",
+    logradouro: "Padre Santos",
     bairro: "Pitombeira",
     localidade: "",
     uf: "",
@@ -3404,7 +3403,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-402",
-    logradouro: "Vilmar Oliveira de Andrade até 1373/1374",
+    logradouro: "Vilmar Oliveira de Andrade",
     bairro: "Pitombeira",
     localidade: "",
     uf: "",
@@ -3420,7 +3419,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-392",
-    logradouro: "Luiz Vicente Ferreira Lima até 498 lado par",
+    logradouro: "Luiz Vicente Ferreira Lima",
     bairro: "Pitombeira",
     localidade: "",
     uf: "",
@@ -3428,7 +3427,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-310",
-    logradouro: "Padre Vicente de 1732 ao fim lado par",
+    logradouro: "Padre Vicente",
     bairro: "Pitombeira",
     localidade: "",
     uf: "",
@@ -3436,7 +3435,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-414",
-    logradouro: "Vieira de Mello lado par",
+    logradouro: "Vieira de Mello",
     bairro: "Pitombeira",
     localidade: "",
     uf: "",
@@ -3444,7 +3443,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-326",
-    logradouro: "Napoleão Nunes Maia de 121 a 1399 - lado ímpar",
+    logradouro: "Napoleão Nunes Maia",
     bairro: "Pitombeira",
     localidade: "",
     uf: "",
@@ -3452,7 +3451,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-314",
-    logradouro: "Joaquim Rodrigues dos Santos de 891/892 ao fim",
+    logradouro: "Joaquim Rodrigues dos Santos",
     bairro: "Pitombeira",
     localidade: "",
     uf: "",
@@ -3460,7 +3459,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-024",
-    logradouro: "Avenida dos Expedicionários de 3154/3155 ao fim",
+    logradouro: "Avenida dos Expedicionários",
     bairro: "Santa Luzia",
     localidade: "",
     uf: "",
@@ -3468,7 +3467,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-022",
-    logradouro: "Francisco Nunes Guerreiro até 2172 lado par ",
+    logradouro: "Francisco Nunes Guerreiro",
     bairro: "Santa Luzia",
     localidade: "",
     uf: "",
@@ -3476,7 +3475,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-016",
-    logradouro: "José Lopes Maranhdo de 2950 a 3450 lado par",
+    logradouro: "José Lopes Maranhdo",
     bairro: "Santa Luzia",
     localidade: "",
     uf: "",
@@ -3484,7 +3483,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-010",
-    logradouro: "Manoel Saraiva de 323 a 869 lado impar",
+    logradouro: "Manoel Saraiva",
     bairro: "Santa Luzia",
     localidade: "",
     uf: "",
@@ -3492,7 +3491,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-030",
-    logradouro: "Sabino Roberto de Freitas de 3191 a 3325 lado impar",
+    logradouro: "Sabino Roberto de Freitas",
     bairro: "Santa Luzia",
     localidade: "",
     uf: "",
@@ -3500,7 +3499,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-014",
-    logradouro: "Joaquim Evaristo Gadelha de 2873/2874 a 3439/3440",
+    logradouro: "Joaquim Evaristo Gadelha",
     bairro: "Santa Luzia",
     localidade: "",
     uf: "",
@@ -3508,7 +3507,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-020",
-    logradouro: "Francisco Holanda de Oliveira até 737/738",
+    logradouro: "Francisco Holanda de Oliveira",
     bairro: "Santa Luzia",
     localidade: "",
     uf: "",
@@ -3516,7 +3515,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-004",
-    logradouro: "José Hamilton de Oliveira de 161/162 a 641/642",
+    logradouro: "José Hamilton de Oliveira",
     bairro: "Santa Luzia",
     localidade: "",
     uf: "",
@@ -3524,7 +3523,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-018",
-    logradouro: "Manfredo de Oliveira Lima de 254/255 a 983/984",
+    logradouro: "Manfredo de Oliveira Lima",
     bairro: "Santa Luzia",
     localidade: "",
     uf: "",
@@ -3540,7 +3539,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-032",
-    logradouro: "Pedro Coelho de 251/252 ao fim",
+    logradouro: "Pedro Coelho",
     bairro: "Santa Luzia",
     localidade: "",
     uf: "",
@@ -3548,7 +3547,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-006",
-    logradouro: "Raimundo Felipe Neto de 434/435 a 998/999",
+    logradouro: "Raimundo Felipe Neto",
     bairro: "Santa Luzia",
     localidade: "",
     uf: "",
@@ -3556,7 +3555,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-002",
-    logradouro: "Raimundo Remigio de Freitas até 679/680",
+    logradouro: "Raimundo Remigio de Freitas",
     bairro: "Santa Luzia",
     localidade: "",
     uf: "",
@@ -3572,7 +3571,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-556",
-    logradouro: "Cosme Damião da Silva até 3588 - lado par",
+    logradouro: "Cosme Damião da Silva",
     bairro: "Socorro",
     localidade: "",
     uf: "",
@@ -3628,7 +3627,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-550",
-    logradouro: "José Osterne Junioaté 848/849",
+    logradouro: "José Osterne Junioaté",
     bairro: "Socorro",
     localidade: "",
     uf: "",
@@ -3652,7 +3651,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-564",
-    logradouro: "Napoleado Nunes Maia de 732/733 ao fim",
+    logradouro: "Napoleado Nunes Maia",
     bairro: "Socorro",
     localidade: "",
     uf: "",
@@ -3668,7 +3667,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-544",
-    logradouro: "Coronel Sindulfo Chaves até 937/938",
+    logradouro: "Coronel Sindulfo Chaves",
     bairro: "Socorro",
     localidade: "",
     uf: "",
@@ -3676,7 +3675,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-560",
-    logradouro: "Sousa Andrade de 611/612 ao fim",
+    logradouro: "Sousa Andrade",
     bairro: "Socorro",
     localidade: "",
     uf: "",
