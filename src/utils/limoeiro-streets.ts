@@ -827,7 +827,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62936-670",
-    logradouro: "Presidente Epitácio Pessoa lado impar",
+    logradouro: "Presidente Epitácio Pessoa",
     bairro: "Bom Jesus Cruzeiro",
     localidade: "",
     uf: "",
@@ -1283,7 +1283,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62936-000",
-    logradouro: "João Maria de Freitas lado impar",
+    logradouro: "João Maria de Freitas",
     bairro: "Brotolandia",
     localidade: "",
     uf: "",
@@ -1387,7 +1387,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-670",
-    logradouro: "Rua Francisco Carneiro  -",
+    logradouro: "Rua Francisco Carneiro",
     bairro: "Canafístula",
     localidade: "",
     uf: "",
@@ -1539,7 +1539,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-025",
-    logradouro: "Coronel José Nunes lado impar",
+    logradouro: "Coronel José Nunes",
     bairro: "Centro",
     localidade: "",
     uf: "",
@@ -1683,7 +1683,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-065",
-    logradouro: "Coronel José Estácio  -",
+    logradouro: "Coronel José Estácio",
     bairro: "Centro",
     localidade: "",
     uf: "",
@@ -1699,7 +1699,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-085",
-    logradouro: "Cônego  Mizael Alves de Souza",
+    logradouro: "Cônego Mizael Alves de Souza",
     bairro: "Centro",
     localidade: "",
     uf: "",
@@ -1715,7 +1715,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-242",
-    logradouro: "Travessa Elizeu Crisdstomo dos Reis",
+    logradouro: "Travessa Elizeu Crisostomo dos Reis",
     bairro: "Doutor José Simões",
     localidade: "",
     uf: "",
@@ -1995,7 +1995,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-146",
-    logradouro: "Coronel José Nunes lado impar",
+    logradouro: "Coronel José Nunes",
     bairro: "Joao XXIII",
     localidade: "",
     uf: "",
@@ -2195,7 +2195,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62936-040",
-    logradouro: "Joao Maria de Freitas lado impar",
+    logradouro: "Joao Maria de Freitas",
     bairro: "Limoeirinho",
     localidade: "",
     uf: "",
@@ -2571,7 +2571,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-438",
-    logradouro: "José Roberto Régis  av",
+    logradouro: "José Roberto Régis",
     bairro: "Luis Alves Freitas",
     localidade: "",
     uf: "",
@@ -2995,7 +2995,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-054",
-    logradouro: "Luis Gonzaga de Oliveira Osterne lado impar",
+    logradouro: "Luis Gonzaga de Oliveira Osterne",
     bairro: "Monsenhor Otávio",
     localidade: "",
     uf: "",
@@ -3011,7 +3011,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-238",
-    logradouro: "Rodovia Custódio Saraiva  -",
+    logradouro: "Rodovia Custódio Saraiva",
     bairro: "Monsenhor Otávio",
     localidade: "",
     uf: "",
@@ -3531,7 +3531,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-000",
-    logradouro: "Cônego  Mizael Alves de Souza",
+    logradouro: "Cônego Mizael Alves de Souza",
     bairro: "Santa Luzia",
     localidade: "",
     uf: "",

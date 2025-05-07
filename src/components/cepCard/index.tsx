@@ -10,7 +10,7 @@ export function CEPCard({ data }: CepCardProps) {
   // Cria uma cópia de data e altera o cep, se necessário
   const cepData = {
     ...data,
-    cep: data.cep === "62930-000" ? "62937-899" : data.cep,
+    cep: data.cep === "62930-000" ? "62930-970" : data.cep,
   };
 
   const [copySuccess, setCopySuccess] = useState("");

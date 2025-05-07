@@ -29,8 +29,6 @@ async function checkForCepAndSendEmail(data: any[], address: string) {
           message: `Endereço com CEP 62930-000 foi encontrado: ${address}`,
         }),
       });
-
-      const result = await res.json();
     } catch {}
   }
 }
