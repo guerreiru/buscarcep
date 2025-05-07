@@ -5,6 +5,7 @@ import { Input } from "@/components/inputField";
 import { Modal } from "@/components/modal";
 import { StateCitySelect } from "@/components/stateCitySelect";
 import { useCepSearch } from "@/hooks/useCepSearch";
+import { limoeiroStreets } from "@/utils/limoeiro-streets";
 
 export default function Home() {
   const {
@@ -45,7 +46,14 @@ export default function Home() {
           onChange={(e) => setAddress(e.target.value)}
           label="Rua"
           aria-required="true"
+          list="street-suggestions"
         />
+
+        <datalist id="street-suggestions">
+          {limoeiroStreets.map((street, index) => (
+            <option key={index} value={street.logradouro} />
+          ))}
+        </datalist>
 
         <button
           onClick={handleSearch}
