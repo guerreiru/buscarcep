@@ -13,6 +13,7 @@ export function Input({
   placeholder = "",
   required = false,
   type = "text",
+  ...props
 }: InputProps) {
   return (
     <div className="mb-4">
@@ -28,6 +29,7 @@ export function Input({
         onChange={onChange}
         placeholder={placeholder}
         className="w-full bg-gray-800 text-white border border-gray-600 p-2 rounded"
+        {...props}
       />
     </div>
   );
