@@ -1260,7 +1260,7 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-036",
     logradouro: "Cosme Damião da Silva",
-    bairro: "Brotolandia",
+    bairro: "Brotolândia",
     localidade: "",
     uf: "",
     complemento: "",
@@ -1268,7 +1268,7 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-018",
     logradouro: "Francisco Bandeira",
-    bairro: "Brotolandia",
+    bairro: "Brotolândia",
     localidade: "",
     uf: "",
     complemento: "",
@@ -1276,7 +1276,7 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-020",
     logradouro: "Engenheira Gerlêni de Castro",
-    bairro: "Brotolandia",
+    bairro: "Brotolândia",
     localidade: "",
     uf: "",
     complemento: "",
@@ -1284,7 +1284,7 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-000",
     logradouro: "João Maria de Freitas",
-    bairro: "Brotolandia",
+    bairro: "Brotolândia",
     localidade: "",
     uf: "",
     complemento: "",
@@ -1292,7 +1292,7 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-026",
     logradouro: "José Joaquim Filho",
-    bairro: "Brotolandia",
+    bairro: "Brotolândia",
     localidade: "",
     uf: "",
     complemento: "",
@@ -1300,7 +1300,7 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-010",
     logradouro: "José Osterne Juniode",
-    bairro: "Brotolandia",
+    bairro: "Brotolândia",
     localidade: "",
     uf: "",
     complemento: "",
@@ -1308,7 +1308,7 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-028",
     logradouro: "Limério Osterne",
-    bairro: "Brotolandia",
+    bairro: "Brotolândia",
     localidade: "",
     uf: "",
     complemento: "",
@@ -1316,7 +1316,7 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-034",
     logradouro: "Nair Holanda Maia",
-    bairro: "Brotolandia",
+    bairro: "Brotolândia",
     localidade: "",
     uf: "",
     complemento: "",
@@ -1324,7 +1324,7 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-008",
     logradouro: "Travessa Raimundo Fidélis",
-    bairro: "Brotolandia",
+    bairro: "Brotolândia",
     localidade: "",
     uf: "",
     complemento: "",
@@ -1332,7 +1332,7 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-014",
     logradouro: "Sousa Andrade",
-    bairro: "Brotolandia",
+    bairro: "Brotolândia",
     localidade: "",
     uf: "",
     complemento: "",
@@ -1340,7 +1340,7 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-032",
     logradouro: "Valderez Gurgel",
-    bairro: "Brotolandia",
+    bairro: "Brotolândia",
     localidade: "",
     uf: "",
     complemento: "",
@@ -1348,7 +1348,7 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-022",
     logradouro: "Napoleado Nunes Maia",
-    bairro: "Brotolandia",
+    bairro: "Brotolândia",
     localidade: "",
     uf: "",
     complemento: "",
@@ -1356,7 +1356,7 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-004",
     logradouro: "Padre Vicente",
-    bairro: "Brotolandia",
+    bairro: "Brotolândia",
     localidade: "",
     uf: "",
     complemento: "",
@@ -1996,7 +1996,7 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62930-146",
     logradouro: "Coronel José Nunes",
-    bairro: "Joao XXIII",
+    bairro: "João XXIII",
     localidade: "",
     uf: "",
     complemento: "",
@@ -2004,7 +2004,7 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62930-158",
     logradouro: "Napoledo Nunes Maia",
-    bairro: "Joao XXIII",
+    bairro: "João XXIII",
     localidade: "",
     uf: "",
     complemento: "",
