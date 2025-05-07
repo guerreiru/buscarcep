@@ -3,10 +3,10 @@ import { Cep } from "@/types/Cep";
 export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-490",
-    logradouro: "Travessa Joao Menezes de Oliveira",
+    logradouro: "Travessa João Menezes de Oliveira",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -14,7 +14,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Manoel Fidelis Maia",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -22,7 +22,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Manoel Fidelis Maia",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -30,7 +30,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Higino Lourengo da Silva",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -38,7 +38,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "João Ferreira Freitas",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -46,7 +46,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Lopes de Andrade",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -54,7 +54,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Nunes Guerreiro Sobrinho",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -62,7 +62,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Luiz Fortunato de Andrade",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -70,7 +70,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Maria Carmélia Maia de Andrade",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -78,7 +78,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Raimunda Amélia de Oliveira",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -86,7 +86,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Regina Ferreira de Araujo",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -94,7 +94,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Presidente Epitácio Pessoa",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -102,7 +102,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Rua Deputado Expedito Maia da Costa",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -110,7 +110,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Rua Auditora Fernanda Ney",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -118,7 +118,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Fortunato de Andrade",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -126,7 +126,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Fortunato de Andrade I",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -134,7 +134,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Francisco de Holanda Martins",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -142,7 +142,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Hipólito Nepomuceno de Andrade",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -150,7 +150,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Isaura Nunes Malveira",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -158,7 +158,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "João Batista Gomes",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -166,15 +166,15 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa João Bento Filho",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
     cep: "62936-502",
-    logradouro: "Joao Conrado Guimaraes",
+    logradouro: "João Conrado Guimaraes",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -182,7 +182,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa João Felicio Costa",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -190,7 +190,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "João Pantaledo de Moura",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -198,7 +198,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Deputado Joaquim Bento de Sousa Andrade",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -206,7 +206,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Amancio de Moura",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -214,7 +214,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Bento Filho",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -222,7 +222,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa José Evandro Soares da Silva",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -230,7 +230,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Secretário José Gildo Craveiro Holanda",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -238,7 +238,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Gonçalves Guerreiro",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -246,7 +246,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Malveira Maia",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -254,7 +254,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Victor de Oliveira",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -262,7 +262,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Victor de Oliveira I",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -270,7 +270,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Luiz Paulino Gomes",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -278,7 +278,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Manoel Fernandes de Sousa",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -286,7 +286,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Maria José Chaves de Almeida",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -294,7 +294,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Maria José Sousa de Freitas",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -302,7 +302,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Mariana Faganha Gadelha",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -310,7 +310,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Pantaledo de Moura",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -318,7 +318,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Pedro Batista de Oliveira",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -326,7 +326,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Raimundo Malveira Maia",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -334,7 +334,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Raimundo Tomas de Aquino",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -342,7 +342,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Rogerlando Saraiva Rabelo",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -350,7 +350,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Rosa Teresa de Jesus",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -358,7 +358,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Rosa Teresa de Jesus",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -366,7 +366,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "São Sebastião",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -374,7 +374,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Valdeci Ferreira de Araujo",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -382,7 +382,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Valdemiro Ferreira de Matos",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -390,7 +390,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Vereador Valderilo Holanda de Oliveira",
     bairro: "Antônio Holanda",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -398,7 +398,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Cornélio Alves de Freitas",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -406,7 +406,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Estevao Remigio de Freitas",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -414,7 +414,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Estevao Remigio de Freitas",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -422,7 +422,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Felipe Alves de Freitas",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -430,7 +430,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Francisco Nunes Guerreiro",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -438,7 +438,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Deputado Franklin Gondim Chaves",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -446,15 +446,15 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Vila Holanda",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
     cep: "62932-320",
-    logradouro: "Travessa Joao Lopes de Assis",
+    logradouro: "Travessa João Lopes de Assis",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -462,15 +462,15 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "João Lopes de Assis",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
     cep: "62932-324",
-    logradouro: "Travessa Joao Lopes de Assis I",
+    logradouro: "Travessa João Lopes de Assis I",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -478,7 +478,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Joaquim Evaristo Gadelha",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -486,7 +486,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Brito Junior",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -494,7 +494,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa José Brito Junior",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -502,7 +502,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa José Brito Junior I",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -510,7 +510,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa José Brito Junior Il",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -518,7 +518,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa José Brito Junior III",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -526,7 +526,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa José Brito Junior IV",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -534,7 +534,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José de Castro Maia de Freitas",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -542,7 +542,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Ednir Maia",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -550,7 +550,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Ferreira Sombra",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -558,7 +558,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa José Hamilton de Oliveira",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -566,7 +566,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Hamilton de Oliveira",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -574,7 +574,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Leéncio Anibal da Silva",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -582,7 +582,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Lucia Baltazar Costa",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -590,7 +590,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Luis Nunes Guerreiro",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -598,7 +598,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Manuel Luis de Freitas",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -606,7 +606,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Manuel Luis de Freitas I",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -614,7 +614,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Manuel Luis de Freitas II",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -622,7 +622,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Manuel Luis de Freitas III",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -630,7 +630,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Manuel Luis de Freitas IV",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -638,7 +638,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Manuel Luis de Freitas V",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -646,7 +646,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Manuel Luis de Freitas",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -654,7 +654,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Manuel Luis de Freitas",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -662,7 +662,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Maria Assunção de Freitas",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -670,7 +670,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Marina Mendes",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -678,7 +678,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Marina Mendes VI",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -686,7 +686,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Cônego  Mizael Alves de Souza",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -694,7 +694,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Onésimo Remigio de Freitas",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -702,7 +702,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Onésimo Remigio de Freitas",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -710,7 +710,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Raimunda Lidia de Freitas Ferreira",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -718,7 +718,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Raimundo Mendes Guerreiro",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -726,7 +726,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Raimundo Mendes Guerreiro",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -734,7 +734,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Raimundo Nonato de Moura",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -742,7 +742,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Valdemirio Holanda Nunes",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -750,7 +750,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Vital Alves de Freitas",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -758,7 +758,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Vital Alves de Freitas",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -766,7 +766,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Vital de Freitas I",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -774,7 +774,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Vital de Freitas II",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -782,7 +782,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Vital de Freitas Ill",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -790,7 +790,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Lopes Maranhdo",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -798,7 +798,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Sabino Roberto",
     bairro: "Boa Fé",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -806,7 +806,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Avenida Fidélis e Maia",
     bairro: "Bom Jesus",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -814,7 +814,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Francisco de Assis Andrade",
     bairro: "Bom Jesus",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -822,7 +822,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "João Candido de Sousa",
     bairro: "Bom Jesus",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -830,7 +830,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Presidente Epitácio Pessoa",
     bairro: "Bom Jesus Cruzeiro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -838,7 +838,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Francisco Chagas Rabelo",
     bairro: "Bom Jesus Cruzeiro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -846,7 +846,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Juracy Chaves de Andrade",
     bairro: "Bom Jesus Cruzeiro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -854,7 +854,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Maria Augusta de Oliveira",
     bairro: "Bom Jesus Cruzeiro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -862,7 +862,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Maria Augusta de Oliveira",
     bairro: "Bom Jesus Cruzeiro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -870,7 +870,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Pedro Amorim de Oliveira",
     bairro: "Bom Jesus Cruzeiro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -878,7 +878,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Pedro Gomes Bezerra",
     bairro: "Bom Jesus Cruzeiro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -886,7 +886,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Professora Inés Augusta de Oliveira",
     bairro: "Bom Jesus Cruzeiro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -894,7 +894,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Francisco Holanda",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -902,7 +902,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Raimundo Mendes Guerreiro",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -910,7 +910,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Avenida do Contorno",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -918,7 +918,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Avenida Francisco Antônio de Lima",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -926,7 +926,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Rua Francisco Dantas Bandeira",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -934,7 +934,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Francisco das Chagas Lucena",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -942,7 +942,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Francisco Gomes Maciel",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -950,7 +950,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Francisco Inacio da Silva Filho",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -958,7 +958,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Francisco Nunes Guerreiro",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -966,7 +966,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Franklin Chaves",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -974,7 +974,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Deputado Franklin Chaves",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -982,7 +982,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Franklin Gondim Chaves",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -990,7 +990,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Doutor Gaspar",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -998,7 +998,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Gaudéncio Ferreira de Freitas",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1006,15 +1006,15 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Heldebrando Fernandes de Sousa",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
     cep: "62932-056",
-    logradouro: "Travessa Joao Claudino dos Santos",
+    logradouro: "Travessa João Claudino dos Santos",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1022,7 +1022,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "João Roque Filho",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1030,7 +1030,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Joaquim Evaristo Gadelha",
     bairro: "Bom nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1038,7 +1038,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Brito de Oliveira",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1046,7 +1046,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa José Felicio da Costa",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1054,7 +1054,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Felipe Sobrinho",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1062,7 +1062,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Gomes Neto",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1070,7 +1070,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Josino dos Anjos",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1078,7 +1078,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Lopes Maranhdo",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1086,7 +1086,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Lauro Rebouças Filho",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1094,7 +1094,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Luis Sales Bandeira",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1102,7 +1102,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Manfredo",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1110,7 +1110,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Manuel Cassimiro da Silva",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1118,7 +1118,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Maria Assunção de Freitas",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1126,7 +1126,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Maria do Carmo Amorim",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1134,7 +1134,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Maria Irene Vidal",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1142,7 +1142,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Maria Otilia Pereira",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1150,7 +1150,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Maurina Holanda Cavalcante",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1158,7 +1158,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Mixico Nonato",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1166,7 +1166,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Olavio Rebougas de Oliveira",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1174,7 +1174,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Pedro Olimpio de Souza",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1182,7 +1182,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Vereador Raimundo Donato Chaves",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1190,7 +1190,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Raimundo Felipe Neto",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1198,7 +1198,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Raimundo Nonato de Moura",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1206,7 +1206,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Raimundo Remigio",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1214,7 +1214,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Tenente Sebastião",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1222,7 +1222,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Vicente de Paula Freitas",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1230,7 +1230,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Willian Bastos Franco",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1238,7 +1238,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Lucia Baltazar Costa",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1246,7 +1246,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Luis Gonzaga de Oliveira Osterne",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1254,7 +1254,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Manoel Saraiva",
     bairro: "Bom Nome",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1262,7 +1262,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Cosme Damião da Silva",
     bairro: "Brotolândia",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1270,7 +1270,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Francisco Bandeira",
     bairro: "Brotolândia",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1278,7 +1278,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Engenheira Gerlêni de Castro",
     bairro: "Brotolândia",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1286,7 +1286,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "João Maria de Freitas",
     bairro: "Brotolândia",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1294,7 +1294,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Joaquim Filho",
     bairro: "Brotolândia",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1302,7 +1302,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Osterne Juniode",
     bairro: "Brotolândia",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1310,7 +1310,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Limério Osterne",
     bairro: "Brotolândia",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1318,7 +1318,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Nair Holanda Maia",
     bairro: "Brotolândia",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1326,7 +1326,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Raimundo Fidélis",
     bairro: "Brotolândia",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1334,7 +1334,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Sousa Andrade",
     bairro: "Brotolândia",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1342,7 +1342,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Valderez Gurgel",
     bairro: "Brotolândia",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1350,7 +1350,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Napoleado Nunes Maia",
     bairro: "Brotolândia",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1358,7 +1358,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Padre Vicente",
     bairro: "Brotolândia",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1366,7 +1366,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Francisco Célio",
     bairro: "Brotolândia",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1374,7 +1374,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Coronel Sindulfo Chaves",
     bairro: "Brotolândia",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1382,7 +1382,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Joaquim Rodrigues dos Santos",
     bairro: "Brotolândia",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1390,7 +1390,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Rua Francisco Carneiro",
     bairro: "Canafístula",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1398,7 +1398,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Padre Custódio",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1406,7 +1406,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "David Gadelha",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1414,7 +1414,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Avenida dos Expedicionários",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1422,7 +1422,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Felipe Santiago",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1430,7 +1430,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Felismino Ferreira Maia",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1438,7 +1438,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Coronel Francisco Remígio",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1446,7 +1446,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Coronel Francisco Remígio",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1454,7 +1454,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Hondrio Nogueira",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1462,7 +1462,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa larley Leitao",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1470,7 +1470,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "larley Leitéo Caetano",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1478,7 +1478,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Coronel Inacio Mendes",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1486,7 +1486,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Coronel Inacio Mendes",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1494,7 +1494,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Jaime Leonel Chaves",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1502,7 +1502,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Capitão João Eduardo",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1510,7 +1510,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "João Maria de Freitas",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1518,7 +1518,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Padre Joaquim de Menezes",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1526,7 +1526,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Agostinho Nogueira",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1534,7 +1534,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Jerônimo",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1542,7 +1542,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Coronel José Nunes",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1550,7 +1550,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Coronel José Nunes",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1558,7 +1558,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Praça José Osterne",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1566,7 +1566,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Satino",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1574,7 +1574,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Lucas Carneiro",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1582,7 +1582,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Coronel Malveira",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1590,7 +1590,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Mamede de Oliveira Lima",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1598,7 +1598,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Manoel Saraiva",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1606,7 +1606,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Mario Fernandes",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1614,7 +1614,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Coronel Miguel Vieira de Melo",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1622,7 +1622,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Patricio Roberto",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1630,7 +1630,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Raimundo Felipe Neto",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1638,7 +1638,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Raimundo Fidélis",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1646,7 +1646,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Professor Ricarti",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1654,7 +1654,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Sabino Roberto",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1662,7 +1662,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Coronel Serafim Chaves",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1670,7 +1670,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Coronel Serafim Chaves",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1678,7 +1678,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Coronel Sindulfo Chaves",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1686,7 +1686,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Coronel José Estácio",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1694,7 +1694,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Manfredo",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1702,7 +1702,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Cônego Mizael Alves de Souza",
     bairro: "Centro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1710,7 +1710,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Avenida do Contorno",
     bairro: "Doutor José Simões",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1718,7 +1718,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Elizeu Crisostomo dos Reis",
     bairro: "Doutor José Simões",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1726,7 +1726,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Coronel Francisco Remígio",
     bairro: "Doutor José Simões",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1734,7 +1734,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Doutor Gaspar",
     bairro: "Doutor José Simões",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1742,7 +1742,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Hiroshi Gadelha Maia Izidio",
     bairro: "Doutor José Simões",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1750,7 +1750,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "João Chagas dos Reis",
     bairro: "Doutor José Simões",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1758,15 +1758,15 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Capitão João Eduardo",
     bairro: "Doutor José Simões",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
     cep: "62934-196",
-    logradouro: "Joao Maria de Freitas",
+    logradouro: "João Maria de Freitas",
     bairro: "Doutor José Simões",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1774,7 +1774,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Joaquim Saraiva",
     bairro: "Doutor José Simões",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1782,7 +1782,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Basilio dos Santos",
     bairro: "Doutor José Simões",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1790,7 +1790,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Brito Nogueira",
     bairro: "Doutor José Simões",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1798,7 +1798,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Cirineu Maia",
     bairro: "Doutor José Simões",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1806,7 +1806,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Coronel José Nunes",
     bairro: "Doutor José Simões",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1814,7 +1814,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Luiz Vicente Ferreira Lima",
     bairro: "Doutor José Simões",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1822,7 +1822,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Mixico Nonato",
     bairro: "Doutor José Simões",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1830,7 +1830,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Raimundo Fernandes Feitosa",
     bairro: "Doutor José Simões",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1838,7 +1838,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Padre Santos",
     bairro: "Doutor José Simões",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1846,7 +1846,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Tenente Sebastião",
     bairro: "Doutor José Simões",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1854,7 +1854,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Vieira de Mello",
     bairro: "Doutor José Simões",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1862,7 +1862,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Zacarias Rodrigues dos Santos",
     bairro: "Doutor José Simões",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1870,7 +1870,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Rosa Gadelha dos Santos",
     bairro: "Doutor José Simões",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1878,7 +1878,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Vilmar Oliveira",
     bairro: "Doutor José Simões",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1886,7 +1886,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Jaime Oliveira Lima",
     bairro: "Doutor José Simões",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1894,7 +1894,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "João Gomes de Moura",
     bairro: "Doutor José Simões",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1902,7 +1902,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Francisco de Assis Mendes",
     bairro: "Ilha",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1910,15 +1910,15 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Fulgéncio Gomes de Amorim",
     bairro: "Ilha",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
     cep: "62930-210",
-    logradouro: "Joao Gomes de Amorim",
+    logradouro: "João Gomes de Amorim",
     bairro: "Ilha",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1926,7 +1926,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Luiz Gonzaga",
     bairro: "Ilha",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1934,7 +1934,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Maria de Sousa",
     bairro: "Ilha",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1942,7 +1942,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Justino Gomes de Amorim",
     bairro: "Ilha",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1950,7 +1950,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Laura Paulino de Amorim",
     bairro: "Ilha",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1958,7 +1958,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Raimundo Gomes de Amorim",
     bairro: "Ilha",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1966,7 +1966,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Salomao Conrado Maia",
     bairro: "Ilha",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1974,7 +1974,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Sebastião Neves",
     bairro: "Ilha",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1982,7 +1982,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Tereza Landim Estacio",
     bairro: "Ilha",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1990,7 +1990,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Wilson Estacio de Souza",
     bairro: "Ilha",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -1998,7 +1998,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Coronel José Nunes",
     bairro: "João XXIII",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2006,7 +2006,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Napoledo Nunes Maia",
     bairro: "João XXIII",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2014,7 +2014,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Estevao Remigio",
     bairro: "João XXIII",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2022,7 +2022,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Francisco Bandeira",
     bairro: "João XXIII",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2030,7 +2030,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Francisco da Silva Luz",
     bairro: "João XXIII",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2038,7 +2038,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Coronel Francisco Remígio",
     bairro: "João XXIII",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2046,7 +2046,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Doutor Gaspar",
     bairro: "João XXIII",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2054,7 +2054,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Capitão João Eduardo",
     bairro: "João XXIII",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2062,7 +2062,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "João Maria de Freitas",
     bairro: "João XXIII",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2070,7 +2070,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "João Oliveira Ferreira",
     bairro: "João XXIII",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2078,7 +2078,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Joaquim Evaristo Gadelha",
     bairro: "João XXIII",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2086,7 +2086,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Lopes Maranhdo",
     bairro: "João XXIII",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2094,7 +2094,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Coronel José Nunes",
     bairro: "João XXIII",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2102,7 +2102,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Satino",
     bairro: "João XXIII",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2110,7 +2110,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Maria Honorato",
     bairro: "João XXIII",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2118,7 +2118,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Odilon Felix da Silva",
     bairro: "João XXIII",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2126,7 +2126,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Sousa Andrade",
     bairro: "João XXIII",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2134,7 +2134,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Padre Vicente",
     bairro: "João XXIII",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2142,7 +2142,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "David Gadelha",
     bairro: "Limoeirinho",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2150,7 +2150,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Edgar Gadelha de Lima",
     bairro: "Limoeirinho",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2158,7 +2158,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Expedita Barros Silva",
     bairro: "Limoeirinho",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2166,7 +2166,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Francisca Pereira de Melo",
     bairro: "Limoeirinho",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2174,7 +2174,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Francisco Augusto de Oliveira",
     bairro: "Limoeirinho",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2182,7 +2182,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Coronel Inacio Mendes",
     bairro: "Limoeirinho",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2190,15 +2190,15 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "João Adolfo",
     bairro: "Limoeirinho",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
     cep: "62936-040",
-    logradouro: "Joao Maria de Freitas",
+    logradouro: "João Maria de Freitas",
     bairro: "Limoeirinho",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2206,7 +2206,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Joaquim Rodrigues dos Santos",
     bairro: "Limoeirinho",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2214,7 +2214,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Honorato de Lima",
     bairro: "Limoeirinho",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2222,7 +2222,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Julio Alves da Silva",
     bairro: "Limoeirinho",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2230,7 +2230,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Leila Kristinna Lopes Maia",
     bairro: "Limoeirinho",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2238,7 +2238,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Lili Faheina",
     bairro: "Limoeirinho",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2246,7 +2246,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Limério Osterne",
     bairro: "Limoeirinho",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2254,7 +2254,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Maria lvanir da Silva Lourengo",
     bairro: "Limoeirinho",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2262,7 +2262,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Maria Lirete Saraiva Feijé",
     bairro: "Limoeirinho",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2270,7 +2270,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Raimunda Ferreira de Azevedo",
     bairro: "Limoeirinho",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2278,7 +2278,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Rosa Nunes Vidal",
     bairro: "Limoeirinho",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2286,7 +2286,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Valderez Gurgel",
     bairro: "Limoeirinho",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2294,7 +2294,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Padre Vicente",
     bairro: "Limoeirinho",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2302,7 +2302,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Francisco Carneiro de Araujo",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2310,7 +2310,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Dina Mendes Nunes",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2318,7 +2318,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Dina Mendes Nunes I",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2326,7 +2326,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Domingos Evangelista da Silva",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2334,7 +2334,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Expedito José da Silva",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2342,7 +2342,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Francisco Assis dos Santos",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2350,7 +2350,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Francisco Aureliano de Castro",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2358,7 +2358,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Francisco Carneiro de Araujo I",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2366,7 +2366,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Francisco Mendes Lima",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2374,7 +2374,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Francisco Siqueira de Lima",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2382,7 +2382,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Geraldo Ivo Xavier",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2390,7 +2390,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Gongalves Pereira",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2398,7 +2398,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Hermilio Mendes Guerreiro",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2406,7 +2406,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Hipólito Jerônimo de Oliveira",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2414,7 +2414,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Hipólito Jerônimo I",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2422,7 +2422,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Hipólito Jerônimo II",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2430,7 +2430,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Inacio Cosme de Aratijo",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2438,7 +2438,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Inacio Mendes",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2446,7 +2446,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "João Antonino da Silva",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2454,15 +2454,15 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "João Lopes de Assis",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
     cep: "62930-416",
-    logradouro: "Travessa Joao Rodrigues de Lima",
+    logradouro: "Travessa João Rodrigues de Lima",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2470,7 +2470,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Joaquim Jaco de Freitas",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2478,7 +2478,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Joaquim Lopes",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2486,7 +2486,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Joaquim Lopes dos Santos",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2494,7 +2494,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Joaquim Manoel Bessa",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2502,7 +2502,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Antônio de Castro",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2510,7 +2510,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Augusto da Silva",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2518,7 +2518,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Costa Mano",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2526,7 +2526,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa José da Silva Soares",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2534,7 +2534,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2542,7 +2542,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Ferreira Sombra",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2550,7 +2550,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Henrique da Silva",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2558,7 +2558,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa José Nunes",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2566,7 +2566,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Roberto Régis",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2574,7 +2574,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Roberto Régis",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2582,7 +2582,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Ludgero de Sena Lima",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2590,7 +2590,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Luis Araujo Lima",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2598,7 +2598,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Luis Ferreira Campos",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2606,7 +2606,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Margarida Felipe de Oliveira",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2614,7 +2614,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Maria Carmelita Alves",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2622,7 +2622,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Maria da Conceigao de Oliveira",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2630,7 +2630,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Maria Ivo de Freitas",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2638,7 +2638,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Maria Tercila Nogueira",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2646,7 +2646,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Maria Vilanir de Freitas",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2654,7 +2654,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Marina Mendes",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2662,7 +2662,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Marina Mendes",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2670,7 +2670,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Odete Egidia da Silva",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2678,7 +2678,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Oliveira Mendes da Silva",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2686,7 +2686,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Paulino Ferreira Costa",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2694,7 +2694,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Paulo Roberto Régis",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2702,7 +2702,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Pedro Coelho",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2710,7 +2710,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Pio Nunes de Andrade",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2718,7 +2718,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Raimundo Craveiro",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2726,7 +2726,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Raimundo Ferreira Lopes",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2734,7 +2734,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Rogério Nogueira da Silva",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2742,7 +2742,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Terezinha Ivo Xavier",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2750,7 +2750,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Vital Gomes Ribeiro",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2758,7 +2758,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Manfredo",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2766,7 +2766,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Sabino Roberto",
     bairro: "Luis Alves Freitas",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2774,7 +2774,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Coronel José Estácio",
     bairro: "Monsenhor Otávio",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2782,7 +2782,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Avenida do Contorno",
     bairro: "Monsenhor Otávio",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2790,7 +2790,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Cremilde Osterne",
     bairro: "Monsenhor Otávio",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2798,7 +2798,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Estevao Remigio",
     bairro: "Monsenhor Otávio",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2806,7 +2806,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Francisco Amaro Gomes",
     bairro: "Monsenhor Otávio",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2814,7 +2814,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Francisco Assis de Lima",
     bairro: "Monsenhor Otávio",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2822,7 +2822,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Francisco das Chagas Celedénio",
     bairro: "Monsenhor Otávio",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2830,7 +2830,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Coronel Francisco Remígio",
     bairro: "Monsenhor Otávio",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2838,7 +2838,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Isabel Sousa Bessa",
     bairro: "Monsenhor Otávio",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2846,7 +2846,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Jaime Leonel",
     bairro: "Monsenhor Otávio",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2854,7 +2854,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Jaime Leonel Chaves",
     bairro: "Monsenhor Otávio",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2862,7 +2862,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Jeova Joaquim de Lima",
     bairro: "Monsenhor Otávio",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2870,7 +2870,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Joaquim Evaristo Gadelha",
     bairro: "Monsenhor Otávio",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2878,7 +2878,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Joaquim Maia",
     bairro: "Monsenhor Otávio",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2886,7 +2886,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Felipe Sobrinho",
     bairro: "Monsenhor Otávio",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2894,7 +2894,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Hamilton",
     bairro: "Monsenhor Otávio",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2902,7 +2902,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Joelino Roque",
     bairro: "Monsenhor Otávio",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2910,7 +2910,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Lopes Maranhdo",
     bairro: "Monsenhor Otávio",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2918,7 +2918,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Lauro Rebouças Filho",
     bairro: "Monsenhor Otávio",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2926,7 +2926,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Maria do Carmo Amorim",
     bairro: "Monsenhor Otávio",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2934,7 +2934,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Maria Helena Bessa Rodrigues",
     bairro: "Monsenhor Otávio",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2942,7 +2942,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Raimundo Remigio",
     bairro: "Monsenhor Otávio",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2950,7 +2950,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Raimundo Remigio II",
     bairro: "Monsenhor Otávio",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2958,7 +2958,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Tenente Sebastião",
     bairro: "Monsenhor Otávio",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2966,7 +2966,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Coronel Serafim Chaves",
     bairro: "Monsenhor Otávio",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2974,7 +2974,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "13 Olga Araujo",
     bairro: "Monsenhor Otávio",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2982,7 +2982,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "14 Olga Araujo",
     bairro: "Monsenhor Otávio",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2990,7 +2990,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "15 Olga Araujo",
     bairro: "Monsenhor Otávio",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -2998,7 +2998,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Luis Gonzaga de Oliveira Osterne",
     bairro: "Monsenhor Otávio",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3006,7 +3006,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Manoel Saraiva",
     bairro: "Monsenhor Otávio",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3014,7 +3014,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Rodovia Custódio Saraiva",
     bairro: "Monsenhor Otávio",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3022,7 +3022,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Rodovia Custódio Saraiva",
     bairro: "Monsenhor Otávio",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3030,7 +3030,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Avenida do Contorno",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3038,7 +3038,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Cosme Damião da Silva",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3046,7 +3046,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Dulcelina Maria de Lima",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3054,7 +3054,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Edgar Martins Freire",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3062,7 +3062,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Rua Francisco das Chagas de Moura",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3070,7 +3070,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Francisco das Chagas Leitao",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3078,7 +3078,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Francisco Pergentino Mendes Guerreiro",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3086,7 +3086,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Doutor Gaspar",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3094,7 +3094,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Hercilio da Costa e Silva",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3102,7 +3102,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Idelfonso Solon de Freitas",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3110,7 +3110,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "João Afonso Coelho",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3118,7 +3118,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "João Chagas dos Reis",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3126,15 +3126,15 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "João Holanda Mendes",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
     cep: "62934-382",
-    logradouro: "Joao Maciel Nogueira",
+    logradouro: "João Maciel Nogueira",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3142,7 +3142,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "João Marcelino de Sousa",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3150,7 +3150,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Joaquim Guerreiro Chaves",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3158,7 +3158,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Joaquim Ricarte de Lima",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3166,7 +3166,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Brito Nogueira",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3174,7 +3174,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Rua José Carneiro da Silva",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3182,7 +3182,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Firmino dos Santos",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3190,7 +3190,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa José Firmino dos Santos",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3198,7 +3198,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa José Firmino dos Santos",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3206,7 +3206,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa José Firmino dos Santos",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3214,7 +3214,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Moreira Chaves",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3222,7 +3222,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Osete Cruz",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3230,7 +3230,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Limério Osterne",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3238,7 +3238,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Luis Mendes Filho",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3246,7 +3246,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Luiz Vicente Ferreira Lima",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3254,7 +3254,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Manoel Martins Freire",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3262,7 +3262,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Maria do Carmo Silva",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3270,7 +3270,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Professora Maria Luciana Dias",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3278,7 +3278,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Maria Margarida Nunes Mendes",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3286,7 +3286,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Mario Guimaraes Peixoto",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3294,7 +3294,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Professora Neusa Saraiva Chaves",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3302,7 +3302,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Novo Habitat",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3310,7 +3310,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Paulo Alves Filho",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3318,7 +3318,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Sargento Paulo Sérgio",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3326,7 +3326,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Raimundo Andrade de Sousa",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3334,7 +3334,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Raimundo Pereira Lima",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3342,7 +3342,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Rosa Gadelha dos Santos",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3350,7 +3350,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Rosa Gadelha dos Santos",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3358,7 +3358,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Padre Santos",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3366,7 +3366,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Tenente Sebastião",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3374,7 +3374,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Sérvulo Guimaraes Maia",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3382,7 +3382,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Travessa Valderez Gurgel",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3390,7 +3390,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Valderez Gurgel",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3398,7 +3398,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Vicente Anibal da Silva",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3406,7 +3406,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Vilmar Oliveira de Andrade",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3414,7 +3414,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Corredor de Zé Nilo",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3422,7 +3422,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Luiz Vicente Ferreira Lima",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3430,7 +3430,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Padre Vicente",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3438,7 +3438,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Vieira de Mello",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3446,7 +3446,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Napoleão Nunes Maia",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3454,7 +3454,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Joaquim Rodrigues dos Santos",
     bairro: "Pitombeira",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3462,7 +3462,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Avenida dos Expedicionários",
     bairro: "Santa Luzia",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3470,7 +3470,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Francisco Nunes Guerreiro",
     bairro: "Santa Luzia",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3478,7 +3478,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Lopes Maranhdo",
     bairro: "Santa Luzia",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3486,7 +3486,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Manoel Saraiva",
     bairro: "Santa Luzia",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3494,7 +3494,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Sabino Roberto de Freitas",
     bairro: "Santa Luzia",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3502,7 +3502,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Joaquim Evaristo Gadelha",
     bairro: "Santa Luzia",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3510,7 +3510,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Francisco Holanda de Oliveira",
     bairro: "Santa Luzia",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3518,7 +3518,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Hamilton de Oliveira",
     bairro: "Santa Luzia",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3526,7 +3526,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Manfredo de Oliveira Lima",
     bairro: "Santa Luzia",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3534,7 +3534,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Cônego Mizael Alves de Souza",
     bairro: "Santa Luzia",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3542,7 +3542,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Pedro Coelho",
     bairro: "Santa Luzia",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3550,7 +3550,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Raimundo Felipe Neto",
     bairro: "Santa Luzia",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3558,7 +3558,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Raimundo Remigio de Freitas",
     bairro: "Santa Luzia",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3566,7 +3566,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Avenida do Contorno",
     bairro: "Socorro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3574,7 +3574,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Cosme Damião da Silva",
     bairro: "Socorro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3582,7 +3582,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Erbas Cavalcante Pinheiro",
     bairro: "Socorro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3590,7 +3590,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Francisco Augusto de Oliveira",
     bairro: "Socorro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3598,7 +3598,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Francisco Bandeira",
     bairro: "Socorro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3606,7 +3606,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Francisco Sabino da Silva",
     bairro: "Socorro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3614,7 +3614,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "João Adolfo",
     bairro: "Socorro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3622,7 +3622,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Firmino dos Santos",
     bairro: "Socorro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3630,7 +3630,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "José Osterne Junioaté",
     bairro: "Socorro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3638,7 +3638,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Maria de Lourdes Chaves Leitão",
     bairro: "Socorro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3646,7 +3646,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Nair Holanda Maia",
     bairro: "Socorro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3654,7 +3654,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Napoleado Nunes Maia",
     bairro: "Socorro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3662,7 +3662,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Osvaldo Barros Maia",
     bairro: "Socorro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3670,7 +3670,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Coronel Sindulfo Chaves",
     bairro: "Socorro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3678,7 +3678,7 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Sousa Andrade",
     bairro: "Socorro",
     localidade: "",
-    uf: "",
+    uf: "CE",
     complemento: "",
   },
   {
@@ -3686,7 +3686,999 @@ export const limoeiroStreets: Cep[] = [
     logradouro: "Zona Rural",
     bairro: "Zona Rural",
     localidade: "",
-    uf: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-582",
+    logradouro: "Antônio Batista Gomes",
+    bairro: "Antônio Holanda",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-516",
+    logradouro: "Adolfo Câsimiro",
+    bairro: "Antônio Holanda",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-536",
+    logradouro: "Adolfo Casimiro I",
+    bairro: "Antônio Holanda",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-450",
+    logradouro: "Alberto Guimarães Malveira",
+    bairro: "Antônio Holanda",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-562",
+    logradouro: "Ambrósio Antônio de Barros",
+    bairro: "Antônio Holanda",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-564",
+    logradouro: "Américo Aires Carneiro",
+    bairro: "Antônio Holanda",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "ô2936-558",
+    logradouro: "Américo Aires Carneiro",
+    bairro: "Antônio Holanda",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-508",
+    logradouro: "Antônia Maria Araújo Silveira",
+    bairro: "Antônio Holanda",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-548",
+    logradouro: "Antônia Josina Maia",
+    bairro: "Antônio Holanda",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-498",
+    logradouro: "Caetano Emílio de Oliveira",
+    bairro: "Antônio Holanda",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "ô2936-464",
+    logradouro: "Carmelita Setubal Castelo Branco",
+    bairro: "Antônio Holanda",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-520",
+    logradouro: "Cícero Vitoriano Cruz",
+    bairro: "Antônio Holanda",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-458",
+    logradouro: "Antônio Deusimar Silva",
+    bairro: "Antônio Holanda",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-568",
+    logradouro: "Antônio Gomes de Andrade",
+    bairro: "Antônio Holanda",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-496",
+    logradouro: "Antônio Hermínio da Silva",
+    bairro: "Antônio Holanda",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-528",
+    logradouro: "Antônio Maia da Costa",
+    bairro: "Antônio Holanda",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-452",
+    logradouro: "Antônio Nunes Guerreiro",
+    bairro: "Antônio Holanda",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-554",
+    logradouro: "Aprígio Gomes Ribeiro",
+    bairro: "Antônio Holanda",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-560",
+    logradouro: "Aprígio Gomes Ribeiro",
+    bairro: "Antônio Holanda",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62536-478",
+    logradouro: "Benedito Nunes Guerreiro",
+    bairro: "Antônio Holanda",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-446",
+    logradouro: "Celso Malveira Maia",
+    bairro: "Antônio Holanda",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-504",
+    logradouro: "Casimira Nunes de Andrade",
+    bairro: "Antôniô Holanda",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-570",
+    logradouro: "Antônio Eduardo da Silva",
+    bairro: "Antônio Holanda",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62932-530",
+    logradouro: "CE_266",
+    bairro: "Boa Fé",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62932-276",
+    logradouro: "Alfredo Guerreiro de Lima",
+    bairro: "Boa Fé",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62932-288",
+    logradouro: "Anibal Cirilo Carapeba",
+    bairro: "Boa Fé",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62932-314",
+    logradouro: "Antônio Castro M Sobrinho",
+    bairro: "Boa Fé",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62932-290",
+    logradouro: "Augusto Fidelis",
+    bairro: "Boa Fé",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62932-522",
+    logradouro: "Avenida do Contorno",
+    bairro: "Boa Fé",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62932-312",
+    logradouro: "Benjamim de Oliveira",
+    bairro: "Boa Fé",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62932-520",
+    logradouro: "CE_358",
+    bairro: "Boa Fé",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-220",
+    logradouro: "Dom  Aureliano Matos",
+    bairro: "Bom Jesus",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-226",
+    logradouro: "Cândido de Andrade Sousa",
+    bairro: "Bom Jesus Cruzeiro",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-228",
+    logradouro: "CE_358",
+    bairro: "Bom Jesus Cruzeiro",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-672",
+    logradouro: "Ambrósio Guerreiro Barros",
+    bairro: "Bom Jesus Cruzeiro",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-222",
+    logradouro: "Antônio de Sousa al Bom Jesus",
+    bairro: "Bom Jesus Cruzeiro",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62932-112",
+    logradouro: "Ademar Mendes da Silva",
+    bairro: "Bom Nome",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62932-048",
+    logradouro: "Alfredo Guerreiro de Lima",
+    bairro: "Bom Nome",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62932-144",
+    logradouro: "Anibal Cirilo Carapeba",
+    bairro: "Bom Nome",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62932-100",
+    logradouro: "Antônio Alonso de Oliveira",
+    bairro: "Bom Nome",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62932-120",
+    logradouro: "Antônio de Castro Moura Filho",
+    bairro: "Bom Nome",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62932-160",
+    logradouro: "CE_266",
+    bairro: "Bom Nome",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62932-156",
+    logradouro: "Clodoveu Peixoto I",
+    bairro: "Bom Nome",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62932-158",
+    logradouro: "Clodoveu Peixoto ll",
+    bairro: "Bom Nome",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62932-068",
+    logradouro: "Prefeito Ademar Celedônio Guimarães",
+    bairro: "Bom Nome",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62932-136",
+    logradouro: "Antônio Gonzaga de Oliveira",
+    bairro: "Bom Nome",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62932-104",
+    logradouro: "Antônio José Barbosa",
+    bairro: "Bom Nome",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62932-076",
+    logradouro: "Antônio Nogueira de Sousa",
+    bairro: "Bom Nome",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62932-086",
+    logradouro: "Antônio Raimundo da Silva",
+    bairro: "Bom Nome",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62932-080",
+    logradouro: "Antônio Ribeiro de Castro e Silva",
+    bairro: "Bom Nome",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62932-118",
+    logradouro: "Antônio Ribeiro de Castro III",
+    bairro: "Bom Nome",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-038",
+    logradouro: "Cândido José de Sousa",
+    bairro: "Brotolândia",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-024",
+    logradouro: "Coronel Clóvis Alexandrino",
+    bairro: "Brotolândia",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-002",
+    logradouro: "Antônio Joaquim",
+    bairro: "Brotolândia",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-012",
+    logradouro: "Celio Santiago",
+    bairro: "Brotolândia",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62932-672",
+    logradouro: "CE_123",
+    bairro: "Canafístula",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62930-093",
+    logradouro: "André Alves de Brito",
+    bairro: "Centro",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62930-071",
+    logradouro: "Anísio Batista",
+    bairro: "Centro",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62930-091",
+    logradouro: "Bênjamim de Oliveira",
+    bairro: "Centro",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62930-031",
+    logradouro: "Camilo Brasiliense",
+    bairro: "Centro",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62930-003",
+    logradouro: "Cândido Olímpio",
+    bairro: "Centro",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62930-001",
+    logradouro: "Celio Santiago",
+    bairro: "Centro",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "ô2330-039",
+    logradouro: "Cônego Climério Chaves",
+    bairro: "Centro",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62930-013",
+    logradouro: "Antônio Joaquim",
+    bairro: "Centro",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62930-061",
+    logradouro: "Cônego Bessa",
+    bairro: "Centro",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62930-015",
+    logradouro: "Dom  Aureliano Matos",
+    bairro: "Centro",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62934-234",
+    logradouro: "Aluízio Bernardo Santiago",
+    bairro: "Doutor José Simões",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62934-224",
+    logradouro: "Antônio Carneiro Sobrinho",
+    bairro: "Doutor José Simões",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62934-244",
+    logradouro: "Bráulio Guimarães de Lima",
+    bairro: "Doutor José Simões",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62934-230",
+    logradouro: "Camilo Brasiliense",
+    bairro: "Doutor José Simões",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62934-202",
+    logradouro: "Antônio Nogueira da Silva",
+    bairro: "Doutor José Simões",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62934-210",
+    logradouro: "Antônio Vidal Gadelha",
+    bairro: "Doutor José Simões",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62934-192",
+    logradouro: "Antônio Lopes de Sousa Andrade",
+    bairro: "Doutor José Simões",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62930-200",
+    logradouro: "Alaide Sombra Cunha",
+    bairro: "Ilha",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62930-128",
+    logradouro: "André Costa",
+    bairro: "João XXIII",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62930-140",
+    logradouro: "Camilo Brasiliense",
+    bairro: "João XXIII",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62930-150",
+    logradouro: "Cândido Gadelha",
+    bairro: "João XXIII",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62930-136",
+    logradouro: "Antônio Jerônimo Filho",
+    bairro: "João XXIII",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62930-120",
+    logradouro: "Célio Santiago",
+    bairro: "João XXIII",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62930-126",
+    logradouro: "Augusto Fidelis ",
+    bairro: "João XXlll",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-048",
+    logradouro: "Dom  Aureliano Matos",
+    bairro: "Limoeirinho",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-094",
+    logradouro: "Antônio Andrade Costa",
+    bairro: "Limoeirinho",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-078",
+    logradouro: "Antônio de Castro Sobrinho",
+    bairro: "Limoeirinho",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-096",
+    logradouro: "Antônio de Sousa I al Limoeirinho",
+    bairro: "Limoeirinho",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-050",
+    logradouro: "Aurélio Malveira",
+    bairro: "Limoeirinho",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-472",
+    logradouro: "Cándido Jose de Sousa",
+    bairro: "Limoeirinho",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-064",
+    logradouro: "Coronel Clóvis Alexandrino",
+    bairro: "Limoeirinho",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-052",
+    logradouro: "Antônio Joaquim",
+    bairro: "Limoeirinho",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62936-092",
+    logradouro: "Bernardo de Castro Ívloura",
+    bairro: "Limoeirinho",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62930-374",
+    logradouro: "Benedito tvlendes Cabral",
+    bairro: "Luis Alves Freitas",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62930-330",
+    logradouro: "Luís A Freltas",
+    bairro: "Luis Alves Freitas",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62930-338",
+    logradouro: "Dom  Aureliano Matos",
+    bairro: "Luis Alves Freitas",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62930-400",
+    logradouro: "Agostinho lvo Filho",
+    bairro: "Luis Alves Freitas",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62930-332",
+    logradouro: "Aluízio Alves de Freitas",
+    bairro: "Luis Alves Freitas",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62930-346",
+    logradouro: "Aniceto Gomes Ribeiro",
+    bairro: "Luis Alves Freitas",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62930-324",
+    logradouro: "Rua Anna Felícia Ribeira",
+    bairro: "Luis Alves Freitas",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62930-412",
+    logradouro: "Antônio de Freitas Regis",
+    bairro: "Luis Alves Freitas",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62930-444",
+    logradouro: "CE_123",
+    bairro: "Luis Alves Freitas",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62930-334",
+    logradouro: "Cláudio Benevides Gonçalves",
+    bairro: "Luis Alves Freitas",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62930-376",
+    logradouro: "Antônio Eriberto Soares Pereira",
+    bairro: "Luis Alves Freitas",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62934-044",
+    logradouro: "Aniceto Carneiro de Moura",
+    bairro: "Monsenhor Otávio",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62934-064",
+    logradouro: "Antônio Alonso de Oliveira",
+    bairro: "Monsenhor Otávio",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62934-010",
+    logradouro: "Augusto Fidelis",
+    bairro: "Monsenhor Otávio",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62934-036",
+    logradouro: "Prefeito Ademar Celedônio Guimarães",
+    bairro: "Monsenhor Otávio",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62934-026",
+    logradouro: "Antônio Jerônimo Filho",
+    bairro: "Monsenhor Otávio",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62934-038",
+    logradouro: "Antônio Nogueira de Sousa",
+    bairro: "Monsenhor Otávio",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62934-046",
+    logradouro: "Antônio Raimundo da Silva",
+    bairro: "Monsenhor Otávio",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62934-068",
+    logradouro: "Arilo Robson Moreira Leão",
+    bairro: "Monsenhor Otávio",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62934-020",
+    logradouro: "Célio Santiago",
+    bairro: "Monsenhor Otávio",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62934-318",
+    logradouro: "Coronel Clóvis Alexandrino",
+    bairro: "Pitombeira",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62934-312",
+    logradouro: "Cândido Gadelha",
+    bairro: "Pitombeira",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62934-320",
+    logradouro: "Coronel Alexandrino",
+    bairro: "Pitombeira",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62934-428",
+    logradouro: "Sargento Adriano Roseno",
+    bairro: "Pitombeira",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62934-394",
+    logradouro: "Antônio Nogueira da Silva",
+    bairro: "Pitombeira",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62934-398",
+    logradouro: "Antônio Vidal Gadelha",
+    bairro: "Pitombeira",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62934-396",
+    logradouro: "Apolônio Augusto de Sousa",
+    bairro: "Pitombeira",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62934-332",
+    logradouro: "Antônio Lopes de Sousa Andrade",
+    bairro: "Pitomheira",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62932-028",
+    logradouro: "Antônio Castro M Sobrinho",
+    bairro: "Santa Luzia",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62932-012",
+    logradouro: "Augusto Fidelis",
+    bairro: "Santa Luzia",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62932-026",
+    logradouro: "Benjamim de Oliveira",
+    bairro: "Santa Luzia",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62932-560",
+    logradouro: "CE_358",
+    bairro: "São Raimundo",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62934-554",
+    logradouro: "Antônio de Castro Sobrinho",
+    bairro: "Socorro",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62934-540",
+    logradouro: "Cândido José de Sousa",
+    bairro: "Socorro",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62934-640",
+    logradouro: "CE_358",
+    bairro: "Socorro",
+    localidade: "",
+    uf: "CE",
     complemento: "",
   },
 ];

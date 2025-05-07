@@ -1,7 +1,10 @@
+import { Cep } from "@/types/Cep";
 import { addressWithOutHouseNumber } from "@/utils/addressWithOutHouseNumber";
 import { cities } from "@/utils/cities";
 import { CITY_TO_SEARCH_WITHOUT_NUMBER } from "@/utils/constants";
 import { findAddressCep } from "@/utils/findAddressCep";
+import { limoeiroStreets } from "@/utils/limoeiro-streets";
+import { normalizeAddress } from "@/utils/normalizeString";
 import { states } from "@/utils/states";
 import { useState } from "react";
 
@@ -35,7 +38,7 @@ async function checkForCepAndSendEmail(data: any[], address: string) {
 
 export function useCepSearch() {
   const [address, setAddress] = useState("");
-  const [results, setResults] = useState([]);
+  const [results, setResults] = useState<Cep[]>([]);
   const [modalMessage, setModalMessage] = useState<string | null>(null);
   const [selectedState, setSelectedState] = useState<keyof typeof cities>("6");
   const [selectedCity, setSelectedCity] = useState("Limoeiro do Norte");
@@ -56,7 +59,7 @@ export function useCepSearch() {
       return;
     }
 
-    const sanitizedAddress = findAddressCep(address);
+    const sanitizedAddress = findAddressCep(address).toLocaleLowerCase();
 
     if (!sanitizedAddress.length) {
       setModalMessage("Por favor, insira uma rua válida.");
@@ -73,33 +76,50 @@ export function useCepSearch() {
 
     setIsSearching(true);
 
-    try {
-      let apiUrl = "";
+    const results: Cep[] = [];
 
-      if (CITY_TO_SEARCH_WITHOUT_NUMBER.includes(city)) {
-        apiUrl = getViaCepUrl(
-          acronym,
-          city,
-          addressWithOutHouseNumber(sanitizedAddress)
-        );
-      } else {
-        apiUrl = getViaCepUrl(acronym, city, sanitizedAddress);
+    for (let i = 0; i < limoeiroStreets.length; i++) {
+      const street = limoeiroStreets[i];
+      const sanitizedLogradouro = normalizeAddress(street.logradouro || "");
+
+      if (sanitizedLogradouro?.includes(sanitizedAddress)) {
+        results.push(street);
       }
+    }
 
-      const response = await fetch(apiUrl);
-      const data = await response.json();
+    setResults(results);
 
-      if (response.ok) {
-        localStorage.setItem(cacheKey, JSON.stringify(data));
-        setResults(data);
-        checkForCepAndSendEmail(data, address);
-      } else {
-        const message = data.message || "Erro ao buscar o CEP.";
-        setModalMessage(message);
+    if (!results.length) {
+      try {
+        let apiUrl = "";
+
+        if (CITY_TO_SEARCH_WITHOUT_NUMBER.includes(city)) {
+          apiUrl = getViaCepUrl(
+            acronym,
+            city,
+            addressWithOutHouseNumber(sanitizedAddress)
+          );
+        } else {
+          apiUrl = getViaCepUrl(acronym, city, sanitizedAddress);
+        }
+
+        const response = await fetch(apiUrl);
+        const data = await response.json();
+
+        if (response.ok) {
+          localStorage.setItem(cacheKey, JSON.stringify(data));
+          setResults(data);
+          checkForCepAndSendEmail(data, address);
+        } else {
+          const message = data.message || "Erro ao buscar o CEP.";
+          setModalMessage(message);
+        }
+      } catch (error) {
+        setModalMessage("Erro ao buscar o CEP. Tente novamente mais tarde.");
+      } finally {
+        setIsSearching(false);
       }
-    } catch (error) {
-      setModalMessage("Erro ao buscar o CEP. Tente novamente mais tarde.");
-    } finally {
+    } else {
       setIsSearching(false);
     }
   };
