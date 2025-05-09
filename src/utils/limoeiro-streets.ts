@@ -403,7 +403,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-306",
-    logradouro: "Travessa Estevao Remigio de Freitas",
+    logradouro: "Travessa Estevão Remigio de Freitas",
     bairro: "Boa Fé",
     localidade: "",
     uf: "CE",
@@ -411,7 +411,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-302",
-    logradouro: "Estevao Remigio de Freitas",
+    logradouro: "Estevão Remigio de Freitas",
     bairro: "Boa Fé",
     localidade: "",
     uf: "CE",
@@ -2011,8 +2011,16 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-124",
-    logradouro: "Estevao Remigio",
+    logradouro: "Estevão Remigio",
     bairro: "João XXIII",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62932-008",
+    logradouro: "Estevão Remigio de Freitas",
+    bairro: "Santa Luzia",
     localidade: "",
     uf: "CE",
     complemento: "",
@@ -2795,7 +2803,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-006",
-    logradouro: "Estevao Remigio",
+    logradouro: "Estevão Remigio",
     bairro: "Monsenhor Otávio",
     localidade: "",
     uf: "CE",
