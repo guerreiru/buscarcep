@@ -787,7 +787,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-278",
-    logradouro: "José Lopes Maranhdo",
+    logradouro: "José Lopes Maranhão",
     bairro: "Boa Fé",
     localidade: "",
     uf: "CE",
@@ -1075,7 +1075,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-040",
-    logradouro: "José Lopes Maranhdo",
+    logradouro: "José Lopes Maranhão",
     bairro: "Bom Nome",
     localidade: "",
     uf: "CE",
@@ -2091,7 +2091,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-134",
-    logradouro: "José Lopes Maranhdo",
+    logradouro: "José Lopes Maranhão",
     bairro: "João XXIII",
     localidade: "",
     uf: "CE",
@@ -2915,7 +2915,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-032",
-    logradouro: "José Lopes Maranhdo",
+    logradouro: "José Lopes Maranhão",
     bairro: "Monsenhor Otávio",
     localidade: "",
     uf: "CE",
@@ -3483,7 +3483,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-016",
-    logradouro: "José Lopes Maranhdo",
+    logradouro: "José Lopes Maranhão",
     bairro: "Santa Luzia",
     localidade: "",
     uf: "CE",
