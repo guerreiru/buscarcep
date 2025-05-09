@@ -66,14 +66,6 @@ export function useCepSearch() {
       return;
     }
 
-    const cacheKey = `${acronym}-${city}-${sanitizedAddress.trim()}`;
-    const cachedResults = localStorage.getItem(cacheKey);
-
-    if (cachedResults) {
-      setResults(JSON.parse(cachedResults));
-      return;
-    }
-
     setIsSearching(true);
 
     const results: Cep[] = [];
@@ -107,7 +99,6 @@ export function useCepSearch() {
         const data = await response.json();
 
         if (response.ok) {
-          localStorage.setItem(cacheKey, JSON.stringify(data));
           setResults(data);
           checkForCepAndSendEmail(data, address);
         } else {
