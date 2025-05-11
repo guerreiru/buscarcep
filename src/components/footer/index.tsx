@@ -43,16 +43,19 @@ export function Footer() {
         >
           Telefone/WhatsApp: (88) 99925-4660
         </a>
-        <a
-          href="http://api.whatsapp.com/send?phone=5588999747309"
-          className="hover:text-blue-300 hover:underline text-sm text-green-400"
-          aria-label="Ligar ou mandar uma mensagem no WhatsApp 88 99974-7309"
-        >
-          Curso preparatório para ACS e ACE: (88) 99974-7309
-        </a>
-        <p className="text-xs">
-          © 2025 Fernando Guerreiro. Todos os direitos reservados.
-        </p>
+
+        <div className="flex flex-wrap items-center justify-center gap-1">
+          <p className="text-sm">
+            Gostou do serviço? Apoie a manutenção do site ❤️!{" "}
+          </p>
+          <span
+            className="text-gray-200 hover:text-blue-300 hover:underline cursor-pointer"
+            aria-label="Ver o qr code do pix"
+            onClick={() => setModalOpen(true)}
+          >
+            Clique aqui para ver o qr code
+          </span>
+        </div>
       </div>
 
       {modalOpen && (
@@ -89,6 +92,12 @@ export function Footer() {
           </div>
         </Modal>
       )}
+
+      <div className="flex justify-center items-center mt-2">
+        <p className="text-xs">
+          © 2025 Fernando Guerreiro. Todos os direitos reservados.
+        </p>
+      </div>
     </footer>
   );
 }
