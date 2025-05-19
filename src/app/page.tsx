@@ -50,11 +50,13 @@ export default function Home() {
           list="street-suggestions"
         />
 
-        <datalist id="street-suggestions">
-          {limoeiroStreets.map((street, index) => (
-            <option key={index} value={street.logradouro} />
-          ))}
-        </datalist>
+        {selectedCity === "Limoeiro do Norte" && (
+          <datalist id="street-suggestions">
+            {limoeiroStreets.map((street, index) => (
+              <option key={index} value={street.logradouro} />
+            ))}
+          </datalist>
+        )}
 
         <button
           onClick={handleSearch}
