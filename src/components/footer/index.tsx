@@ -57,7 +57,7 @@ export function Footer() {
             Gostou do serviço? Apoie a manutenção do site ❤️!{" "}
           </p>
           <span
-            className="text-gray-200 hover:text-blue-300 hover:underline cursor-pointer"
+            className="text-gray-200 hover:text-blue-300 hover:underline cursor-pointer text-xs md:text-sm"
             aria-label="Ver o qr code do pix"
             onClick={() => setModalOpen(true)}
           >
