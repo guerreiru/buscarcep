@@ -828,7 +828,7 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-670",
     logradouro: "Presidente Epitácio Pessoa",
-    bairro: "Bom Jesus Cruzeiro",
+    bairro: "Bom Jesus do Cruzeiro",
     localidade: "",
     uf: "CE",
     complemento: "",
@@ -836,7 +836,7 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-684",
     logradouro: "Francisco Chagas Rabelo",
-    bairro: "Bom Jesus Cruzeiro",
+    bairro: "Bom Jesus do Cruzeiro",
     localidade: "",
     uf: "CE",
     complemento: "",
@@ -844,7 +844,7 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-686",
     logradouro: "Juracy Chaves de Andrade",
-    bairro: "Bom Jesus Cruzeiro",
+    bairro: "Bom Jesus do Cruzeiro",
     localidade: "",
     uf: "CE",
     complemento: "",
@@ -852,7 +852,7 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-680",
     logradouro: "Maria Augusta de Oliveira",
-    bairro: "Bom Jesus Cruzeiro",
+    bairro: "Bom Jesus do Cruzeiro",
     localidade: "",
     uf: "CE",
     complemento: "",
@@ -860,7 +860,7 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-682",
     logradouro: "Travessa Maria Augusta de Oliveira",
-    bairro: "Bom Jesus Cruzeiro",
+    bairro: "Bom Jesus do Cruzeiro",
     localidade: "",
     uf: "CE",
     complemento: "",
@@ -868,7 +868,7 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-676",
     logradouro: "Pedro Amorim de Oliveira",
-    bairro: "Bom Jesus Cruzeiro",
+    bairro: "Bom Jesus do Cruzeiro",
     localidade: "",
     uf: "CE",
     complemento: "",
@@ -876,7 +876,7 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-678",
     logradouro: "Pedro Gomes Bezerra",
-    bairro: "Bom Jesus Cruzeiro",
+    bairro: "Bom Jesus do Cruzeiro",
     localidade: "",
     uf: "CE",
     complemento: "",
@@ -884,7 +884,7 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-674",
     logradouro: "Professora Inés Augusta de Oliveira",
-    bairro: "Bom Jesus Cruzeiro",
+    bairro: "Bom Jesus do Cruzeiro",
     localidade: "",
     uf: "CE",
     complemento: "",
@@ -3939,7 +3939,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-520",
-    logradouro: "CE_358",
+    logradouro: "CE-358",
     bairro: "Boa Fé",
     localidade: "",
     uf: "CE",
@@ -3947,7 +3947,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62936-220",
-    logradouro: "Dom  Aureliano Matos",
+    logradouro: "Dom Aureliano Matos",
     bairro: "Bom Jesus",
     localidade: "",
     uf: "CE",
@@ -3956,15 +3956,15 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-226",
     logradouro: "Cândido de Andrade Sousa",
-    bairro: "Bom Jesus Cruzeiro",
+    bairro: "Bom Jesus",
     localidade: "",
     uf: "CE",
     complemento: "",
   },
   {
     cep: "62936-228",
-    logradouro: "CE_358",
-    bairro: "Bom Jesus Cruzeiro",
+    logradouro: "CE-358",
+    bairro: "Bom Jesus",
     localidade: "",
     uf: "CE",
     complemento: "",
@@ -3972,15 +3972,15 @@ export const limoeiroStreets: Cep[] = [
   {
     cep: "62936-672",
     logradouro: "Ambrósio Guerreiro Barros",
-    bairro: "Bom Jesus Cruzeiro",
+    bairro: "Bom Jesus do Cruzeiro",
     localidade: "",
     uf: "CE",
     complemento: "",
   },
   {
     cep: "62936-222",
-    logradouro: "Antônio de Sousa al Bom Jesus",
-    bairro: "Bom Jesus Cruzeiro",
+    logradouro: "Antônio de Sousa",
+    bairro: "Bom Jesus",
     localidade: "",
     uf: "CE",
     complemento: "",
@@ -4363,7 +4363,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62936-096",
-    logradouro: "Antônio de Sousa I al Limoeirinho",
+    logradouro: "Antônio de Sousa",
     bairro: "Limoeirinho",
     localidade: "",
     uf: "CE",
@@ -4659,7 +4659,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-560",
-    logradouro: "CE_358",
+    logradouro: "CE-358",
     bairro: "São Raimundo",
     localidade: "",
     uf: "CE",
@@ -4683,7 +4683,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62934-640",
-    logradouro: "CE_358",
+    logradouro: "CE-358",
     bairro: "Socorro",
     localidade: "",
     uf: "CE",
