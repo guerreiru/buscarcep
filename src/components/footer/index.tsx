@@ -1,13 +1,17 @@
 "use client";
 
+import { PIX_COPIA_E_COLA } from "@/utils/constants";
+import Image from "next/image";
+import { usePathname } from "next/navigation";
 import { useRef, useState } from "react";
 import { Modal } from "../modal";
-import Image from "next/image";
-import { PIX_COPIA_E_COLA } from "@/utils/constants";
 
 export function Footer() {
   const [modalOpen, setModalOpen] = useState(false);
   const hiddenInputRef = useRef<HTMLInputElement | null>(null);
+  const pathname = usePathname();
+
+  const isPdfPage = pathname === "/pdf";
 
   const handleCopyPixCode = async () => {
     try {
@@ -26,26 +30,30 @@ export function Footer() {
     }
   };
 
+  if (isPdfPage) {
+    return null; // Não renderiza o footer na página de PDF
+  }
+
   return (
     <footer className=" bg-gray-800 text-white fixed bottom-0 w-full z-50 shadow-md">
-      <div className="flex flex-col lg:flex-row justify-around py-2 items-center flex-wrap gap-2 gap-y-3">
+      <div className="flex flex-col lg:flex-row justify-around py-2 items-center flex-wrap gap-2">
         <a
           href="mailto:dev.fernandoguerreiro@gmail.com"
-          className="hover:text-blue-300 hover:underline text-sm"
+          className="hover:text-blue-300 hover:underline text-xs md:text-sm"
           aria-label="Enviar e-mail para dev.fernandoguerreiro@gmail.com"
         >
           Contato: dev.fernandoguerreiro@gmail.com
         </a>
         <a
           href="http://api.whatsapp.com/send?phone=5588999254660"
-          className="hover:text-blue-300 hover:underline text-sm"
+          className="hover:text-blue-300 hover:underline text-xs md:text-sm"
           aria-label="Ligar ou mandar uma mensagem no WhatsApp 88 99925 4660"
         >
           Telefone/WhatsApp: (88) 99925-4660
         </a>
 
         <div className="flex flex-wrap items-center justify-center gap-1">
-          <p className="text-sm">
+          <p className="text-xs md:text-sm">
             Gostou do serviço? Apoie a manutenção do site ❤️!{" "}
           </p>
           <span
@@ -82,11 +90,13 @@ export function Footer() {
               Copiar o código do pix
             </button>
 
-            <p className="text-sm text-gray-800">
+            <p className="text-xs md:text-sm text-gray-800">
               Nome: Fernando Luiz Guerreiro Rodrigues
             </p>
-            <p className="text-sm text-gray-800">CPF: ***.881.983-**</p>
-            <p className="text-sm text-gray-800">
+            <p className="text-xs md:text-sm text-gray-800">
+              CPF: ***.881.983-**
+            </p>
+            <p className="text-xs md:text-sm text-gray-800">
               Instituição: Bco Itaucard S.A.
             </p>
           </div>
