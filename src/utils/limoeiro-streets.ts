@@ -3883,7 +3883,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-530",
-    logradouro: "CE_266",
+    logradouro: "CE-266",
     bairro: "Boa Fé",
     localidade: "",
     uf: "CE",
@@ -4027,7 +4027,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-160",
-    logradouro: "CE_266",
+    logradouro: "CE-266",
     bairro: "Bom Nome",
     localidade: "",
     uf: "CE",
@@ -4139,7 +4139,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62932-672",
-    logradouro: "CE_123",
+    logradouro: "CE-123",
     bairro: "Canafístula",
     localidade: "",
     uf: "CE",
@@ -4475,7 +4475,7 @@ export const limoeiroStreets: Cep[] = [
   },
   {
     cep: "62930-444",
-    logradouro: "CE_123",
+    logradouro: "CE-123",
     bairro: "Luis Alves Freitas",
     localidade: "",
     uf: "CE",
