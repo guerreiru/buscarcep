@@ -7,6 +7,7 @@ import { StateCitySelect } from "@/components/stateCitySelect";
 import { useCepSearch } from "@/hooks/useCepSearch";
 import { limoeiroStreets } from "@/utils/limoeiro-streets";
 import Link from "next/link";
+import { useEffect, useRef } from "react";
 
 export default function Home() {
   const {
@@ -22,6 +23,14 @@ export default function Home() {
     closeModal,
     isSearching,
   } = useCepSearch();
+
+  const resultsRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    if (results.length > 0 && resultsRef.current) {
+      resultsRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }, [results]);
 
   return (
     <div className="bg-gradient-to-b from-gray-900 to-gray-800 min-h-screen flex flex-col items-center px-2 pt-16 pb-[164px] md:pb-[132px]">
@@ -85,7 +94,10 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="mt-6 flex flex-wrap gap-2 w-full max-w-sm">
+      <div
+        ref={resultsRef}
+        className="mt-6 flex flex-wrap gap-2 w-full max-w-sm"
+      >
         {results.map((result, index) => (
           <CEPCard key={index} data={result} />
         ))}
