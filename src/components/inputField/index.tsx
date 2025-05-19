@@ -17,7 +17,7 @@ export function Input({
 }: InputProps) {
   return (
     <div className="mb-4">
-      <label htmlFor={id} className="block text-sm mb-1">
+      <label htmlFor={id} className="block text-xs md:text-sm mb-1">
         {label}
       </label>
       <input
