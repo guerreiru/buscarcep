@@ -6,6 +6,7 @@ import { Modal } from "@/components/modal";
 import { StateCitySelect } from "@/components/stateCitySelect";
 import { useCepSearch } from "@/hooks/useCepSearch";
 import { limoeiroStreets } from "@/utils/limoeiro-streets";
+import Link from "next/link";
 
 export default function Home() {
   const {
@@ -67,6 +68,18 @@ export default function Home() {
         <p className="text-xs mt-4">
           Se a rua não tiver CEP próprio, será exibido o CEP geral da cidade,
           caso esteja disponível.
+        </p>
+
+        <p className="text-xs mt-2">
+          Caso tenha ficado alguma dúvida, confira a página com o PDF
+          disponibilizado pela prefeitura{" "}
+          <Link
+            href="/pdf"
+            className="text-blue-400 hover:underline"
+            aria-label="Clique aqui para entrar em contato"
+          >
+            aqui
+          </Link>
         </p>
       </div>
 
