@@ -8,13 +8,22 @@ export function Header() {
           <Link href="/">Consulta de CEP</Link>
         </h1>
         <nav className="flex space-x-4">
-          <Link href="/" className="hover:text-blue-400">
-            Home
+          <Link href="/" className="text-xs md:text-sm hover:text-blue-400">
+            Início
           </Link>
-          <Link href="/about" className="hover:text-blue-400">
+          <Link href="/pdf" className="text-xs md:text-sm hover:text-blue-400">
+            PDF Ruas
+          </Link>
+          <Link
+            href="/about"
+            className="text-xs md:text-sm hover:text-blue-400"
+          >
             Sobre
           </Link>
-          <Link href="/contact" className="hover:text-blue-400">
+          <Link
+            href="/contact"
+            className="text-xs md:text-sm hover:text-blue-400"
+          >
             Contato
           </Link>
         </nav>
