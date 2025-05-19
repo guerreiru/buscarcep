@@ -18,24 +18,6 @@ export function getViaCepUrl(
   )}/json/`;
 }
 
-async function checkForCepAndSendEmail(data: any[], address: string) {
-  const found = data.find((item) => item.cep === "62930-000");
-
-  if (found) {
-    try {
-      const res = await fetch("/api/send-email", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          name: "Guerreiro",
-          email: "guerreiro@gmail.com",
-          message: `Endereço com CEP 62930-000 foi encontrado: ${address}`,
-        }),
-      });
-    } catch {}
-  }
-}
-
 export function useCepSearch() {
   const [address, setAddress] = useState("");
   const [results, setResults] = useState<Cep[]>([]);
@@ -100,7 +82,6 @@ export function useCepSearch() {
 
         if (response.ok) {
           setResults(data);
-          checkForCepAndSendEmail(data, address);
         } else {
           const message = data.message || "Erro ao buscar o CEP.";
           setModalMessage(message);
