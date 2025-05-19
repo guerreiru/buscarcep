@@ -68,7 +68,7 @@ export default function Contact() {
   return (
     <div className="bg-gradient-to-b from-gray-900 to-gray-800 min-h-screen flex flex-col items-center px-2 pt-16 pb-[164px] md:pb-[132px]">
       <div className="bg-gray-700 text-white p-6 rounded-lg shadow-lg w-full max-w-sm">
-        <p className="mb-4">
+        <p className="text-xs md:text-base mb-4">
           Entre em contato conosco para enviar dúvidas, sugestões ou informar
           algum problema no site
         </p>
@@ -96,7 +96,7 @@ export default function Contact() {
           aria-required="true"
         />
 
-        <label htmlFor="message" className="block text-sm mb-1">
+        <label htmlFor="message" className="block text-xs md:text-sm mb-1">
           Mensagem (Obrigatório)
         </label>
         <textarea
@@ -108,7 +108,7 @@ export default function Contact() {
           className="w-full bg-gray-800 text-white border border-gray-600 p-2 rounded"
           placeholder="Digite sua mensagem"
         />
-        <p className="text-sm">
+        <p className="text-xs md:text-sm">
           {form.message.length}/{MAX_MESSAGE_LENGTH} caracteres
         </p>
 
@@ -116,7 +116,7 @@ export default function Contact() {
           onClick={handleSendMessage}
           disabled={isSendingMessage || !isMessageLengthValid}
           aria-disabled={isSendingMessage}
-          className="bg-blue-700 hover:bg-blue-900 transition text-white font-bold py-2 px-4 rounded w-full disabled:bg-blue-200 disabled:hover:bg-blue-200 mt-4"
+          className="bg-blue-700 hover:bg-blue-900 transition text-white font-bold py-2 px-4 rounded w-full disabled:bg-blue-200 disabled:hover:bg-blue-200 mt-3"
         >
           {isSendingMessage ? "Enviando..." : "Enviar"}
         </button>
