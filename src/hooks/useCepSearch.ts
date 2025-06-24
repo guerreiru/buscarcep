@@ -52,12 +52,14 @@ export function useCepSearch() {
 
     const results: Cep[] = [];
 
-    for (let i = 0; i < limoeiroStreets.length; i++) {
-      const street = limoeiroStreets[i];
-      const sanitizedLogradouro = normalizeAddress(street.logradouro || "");
+    if (selectedCity === "Limoeiro do Norte") {
+      for (let i = 0; i < limoeiroStreets.length; i++) {
+        const street = limoeiroStreets[i];
+        const sanitizedLogradouro = normalizeAddress(street.logradouro || "");
 
-      if (sanitizedLogradouro?.includes(sanitizedAddress)) {
-        results.push(street);
+        if (sanitizedLogradouro?.includes(sanitizedAddress)) {
+          results.push(street);
+        }
       }
     }
 
