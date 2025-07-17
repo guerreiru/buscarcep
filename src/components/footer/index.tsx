@@ -97,7 +97,7 @@ export function Footer() {
               CPF: ***.881.983-**
             </p>
             <p className="text-xs md:text-sm text-gray-800">
-              Instituição: Bco Itaucard S.A.
+              Instituição: Itaú Unibanco S.A.
             </p>
           </div>
         </Modal>
