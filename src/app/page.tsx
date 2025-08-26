@@ -7,9 +7,13 @@ import { StateCitySelect } from "@/components/stateCitySelect";
 import { useCepSearch } from "@/hooks/useCepSearch";
 import { limoeiroStreets } from "@/utils/limoeiro-streets";
 import Link from "next/link";
-import { useEffect, useRef } from "react";
+import { PIX_COPIA_E_COLA } from "@/utils/constants";
+import Image from "next/image";
+import { useEffect, useRef, useState } from "react";
 
 export default function Home() {
+  const [modalPix, setModalPix] = useState(true);
+
   const {
     address,
     setAddress,
@@ -25,6 +29,24 @@ export default function Home() {
   } = useCepSearch();
 
   const resultsRef = useRef<HTMLDivElement | null>(null);
+  const hiddenInputRef = useRef<HTMLInputElement | null>(null);
+
+  const handleCopyPixCode = async () => {
+    try {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        await navigator.clipboard.writeText(PIX_COPIA_E_COLA);
+      } else {
+        if (hiddenInputRef.current) {
+          hiddenInputRef.current.value = PIX_COPIA_E_COLA;
+          hiddenInputRef.current.select();
+          document.execCommand("copy");
+        }
+      }
+      alert("Código copiado com sucesso!");
+    } catch (err) {
+      alert("Erro ao copiar o código.");
+    }
+  };
 
   useEffect(() => {
     if (results.length > 0 && resultsRef.current) {
@@ -104,6 +126,45 @@ export default function Home() {
       </div>
 
       {modalMessage && <Modal message={modalMessage} onClose={closeModal} />}
+      {modalPix && (
+        <Modal onClose={() => setModalPix(false)}>
+          <input
+            ref={hiddenInputRef}
+            type="hidden"
+            readOnly
+            style={{ display: "none", visibility: "hidden" }}
+          />
+
+          <div className="flex flex-col items-center justify-center gap-1">
+            <h1 className="text-gray-800 text-center">
+              Se você gostar do serviço, contribua com a manutenção do site ❤️!
+            </h1>
+            <Image
+              alt="Qr code para a chave pix dev.fernandoguerreiro@gmail.com"
+              src="/qr-code.png"
+              width={200}
+              height={200}
+            />
+
+            <button
+              className="border border-green-700 py-2 px-4 rounded-sm text-gray-800 shadow-sm hover:bg-slate-100 hover:border-green-800"
+              onClick={handleCopyPixCode}
+            >
+              Copiar o código do pix
+            </button>
+
+            <p className="text-xs md:text-sm text-gray-800">
+              Nome: Fernando Luiz Guerreiro Rodrigues
+            </p>
+            <p className="text-xs md:text-sm text-gray-800">
+              CPF: ***.881.983-**
+            </p>
+            <p className="text-xs md:text-sm text-gray-800">
+              Instituição: Itaú Unibanco S.A.
+            </p>
+          </div>
+        </Modal>
+      )}
     </div>
   );
 }
