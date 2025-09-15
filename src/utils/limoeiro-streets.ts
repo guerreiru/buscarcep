@@ -4689,4 +4689,20 @@ export const limoeiroStreets: Cep[] = [
     uf: "CE",
     complemento: "",
   },
+  {
+    cep: "62938-970",
+    logradouro: "Espinho",
+    bairro: "Zona Rural",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
+  {
+    cep: "62938-970",
+    logradouro: "Bixopá",
+    bairro: "Zona Rural",
+    localidade: "",
+    uf: "CE",
+    complemento: "",
+  },
 ];
