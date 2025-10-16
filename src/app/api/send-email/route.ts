@@ -5,9 +5,7 @@ import { MAX_MESSAGE_LENGTH } from "@/utils/constants";
 export async function POST(req: Request) {
   try {
     const body = await req.json();
-
-    console.log("Dados recebidos:", body);
-
+    
     const isSurveyForm = body.serviceInterest || body.newServiceIdea;
     const isContactForm = body.email || body.message;
 
