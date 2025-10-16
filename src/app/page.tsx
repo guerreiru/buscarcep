@@ -4,11 +4,10 @@ import { CEPCard } from "@/components/cepCard";
 import { Input } from "@/components/inputField";
 import { Modal } from "@/components/modal";
 import { StateCitySelect } from "@/components/stateCitySelect";
-import { SurveyModal } from "@/components/surveyModal";
 import { useCepSearch } from "@/hooks/useCepSearch";
 import { limoeiroStreets } from "@/utils/limoeiro-streets";
 import Link from "next/link";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 
 export default function Home() {
   const {
@@ -32,8 +31,6 @@ export default function Home() {
       resultsRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   }, [results]);
-
-  const [showSurvey, setShowSurvey] = useState(false);
 
   return (
     <div className="bg-gradient-to-b from-gray-900 to-gray-800 min-h-screen flex flex-col items-center px-2 pt-[72px] pb-[164px] md:pb-[132px]">
@@ -105,22 +102,6 @@ export default function Home() {
           <CEPCard key={index} data={result} />
         ))}
       </div>
-
-      {results.length > 0 && (
-        <div className="mt-8 text-center">
-          <p className="text-sm text-gray-300 mb-2">
-            Gostou da ferramenta? Sua opinião nos ajuda a melhorar!
-          </p>
-          <button
-            onClick={() => setShowSurvey(true)}
-            className="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded shadow-md transition"
-          >
-            Responder Pesquisa de Satisfação
-          </button>
-        </div>
-      )}
-
-      {showSurvey && <SurveyModal onClose={() => setShowSurvey(false)} />}
 
       {modalMessage && <Modal message={modalMessage} onClose={closeModal} />}
     </div>
