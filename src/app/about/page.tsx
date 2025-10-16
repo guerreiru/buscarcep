@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="bg-gradient-to-b from-gray-900 to-gray-800 min-h-screen flex flex-col items-center px-2 pt-16 pb-[164px] md:pb-[132px]">
+    <div className="bg-gradient-to-b from-gray-900 to-gray-800 min-h-screen flex flex-col items-center px-2 pt-[72px] pb-[164px] md:pb-[132px]">
       <main className="w-full max-w-3xl">
         <h2 className="text-3xl font-bold text-blue-300 mb-4">
           Sobre o Projeto
