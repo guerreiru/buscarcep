@@ -7,7 +7,7 @@ export function Header() {
         <h1 className="text-sm md:text-xl font-bold">
           <Link href="/">Consulta de CEP</Link>
         </h1>
-        <nav className="flex gap-x-4 flex-wrap">
+        <nav className="flex items-center gap-x-4 flex-wrap">
           <Link href="/" className="text-xs md:text-sm hover:text-blue-400">
             Início
           </Link>
@@ -28,7 +28,7 @@ export function Header() {
           </Link>
           <Link
             href="/survey"
-            className="text-xs md:text-sm hover:text-blue-400"
+            className="text-xs md:text-sm bg-blue-400 text-gray-900 px-2 py-1 rounded hover:bg-blue-500"
           >
             Pesquisa
           </Link>

@@ -65,7 +65,7 @@ export default function Survey() {
                   value="Sim"
                   checked={serviceInterest === "Sim"}
                   onChange={(e) => setServiceInterest(e.target.value)}
-                  className="accent-green-600"
+                  className="accent-blue-600"
                 />
                 <span className="text-sm">Sim</span>
               </label>
@@ -77,7 +77,7 @@ export default function Survey() {
                   value="Não"
                   checked={serviceInterest === "Não"}
                   onChange={(e) => setServiceInterest(e.target.value)}
-                  className="accent-green-600"
+                  className="accent-blue-600"
                 />
                 <span className="text-sm">Não</span>
               </label>
@@ -107,14 +107,15 @@ export default function Survey() {
               <button
                 onClick={handleSubmit}
                 disabled={loading}
-                className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded text-sm font-semibold disabled:opacity-70"
+                className="bg-blue-700 hover:bg-blue-900 transition text-white font-bold py-2 px-4 rounded disabled:bg-blue-200 disabled:hover:bg-blue-200"
+
               >
                 {loading ? "Enviando..." : "Enviar"}
               </button>
             </div>
           </>
         ) : (
-          <p className="text-center text-green-400 font-semibold">
+          <p className="text-center text-blue-400 font-semibold">
             Obrigado pelo seu feedback! 💚
           </p>
         )}
