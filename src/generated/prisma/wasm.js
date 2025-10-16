@@ -133,6 +133,10 @@ const config = {
         "fromEnvVar": null,
         "value": "windows",
         "native": true
+      },
+      {
+        "fromEnvVar": null,
+        "value": "rhel-openssl-3.0.x"
       }
     ],
     "previewFeatures": [],
@@ -159,8 +163,8 @@ const config = {
       }
     }
   },
-  "inlineSchema": "generator client {\n  provider = \"prisma-client-js\"\n  output   = \"../src/generated/prisma\"\n}\n\ndatasource db {\n  provider = \"sqlite\"\n  url      = env(\"DATABASE_URL\")\n}\n\nmodel Feedback {\n  id              Int      @id @default(autoincrement())\n  name            String?\n  serviceInterest Boolean\n  newServiceIdea  String\n  createdAt       DateTime @default(now())\n}\n",
-  "inlineSchemaHash": "caa61db6c82fc70d89545197eb82364ea466594ea816751777d75074bd066887",
+  "inlineSchema": "generator client {\n  provider      = \"prisma-client-js\"\n  output        = \"../src/generated/prisma\"\n  binaryTargets = [\"native\", \"rhel-openssl-3.0.x\"]\n}\n\ndatasource db {\n  provider = \"sqlite\"\n  url      = env(\"DATABASE_URL\")\n}\n\nmodel Feedback {\n  id              Int      @id @default(autoincrement())\n  name            String?\n  serviceInterest Boolean\n  newServiceIdea  String\n  createdAt       DateTime @default(now())\n}\n",
+  "inlineSchemaHash": "3469f36d41210a9e9125aee75e0b20cf23d20005260df13be650f17733d226bc",
   "copyEngine": true
 }
 config.dirname = '/'
