@@ -1,130 +1,155 @@
 "use client";
 
 import { Input } from "@/components/inputField";
-import { useRouter } from "next/navigation";
-import { ReactNode, useState } from "react";
+import { MAX_MESSAGE_LENGTH } from "@/utils/constants";
+import { useState } from "react";
 
-type WrapperProps = {
-  children: ReactNode
-  className?: string
-}
-
-function Wrapper({ children, className }: WrapperProps) {
-  return (
-    <div className={`bg-gray-700 text-white p-6 rounded-lg shadow-lg w-full max-w-xs ${className}`}>
-      {children}
-    </div>
-  );
-}
+type FormState = {
+  name: string;
+  serviceInterest: string;
+  newServiceIdea: string;
+};
 
 export default function Survey() {
-  const [name, setName] = useState("");
-  const [serviceInterest, setServiceInterest] = useState("Sim");
-  const [newServiceIdea, setNewServiceIdea] = useState("");
-  const [submitted, setSubmitted] = useState(false);
-  const [loading, setLoading] = useState(false);
-  const router = useRouter();
+  const [form, setForm] = useState<FormState>({
+    name: "",
+    serviceInterest: "Sim",
+    newServiceIdea: "",
+  });
+  const [status, setStatus] = useState("");
+  const [isSendingMessage, setIsSendingMessage] = useState(false);
 
-  const handleSubmit = async () => {
-    if (!serviceInterest.trim()) return;
+  const isMessageLengthValid = form.newServiceIdea.length <= MAX_MESSAGE_LENGTH;
 
-    setLoading(true);
-    await fetch("/api/feedback", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        name,
-        serviceInterest: serviceInterest === "Sim" ? true : false,
-        newServiceIdea,
-      }),
-    });
-    setLoading(false);
-    setSubmitted(true);
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ): void => {
+    const { name, value } = e.target;
+    setForm((prevForm) => ({ ...prevForm, [name]: value }));
+  };
+
+  const handleSendMessage = async () => {
+    try {
+      if (!isMessageLengthValid) {
+        setStatus(
+          `A mensagem excede o limite de ${MAX_MESSAGE_LENGTH} caracteres.`
+        );
+        return;
+      }
+
+      setIsSendingMessage(true);
+
+      const res = await fetch("/api/send-email", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: form.name,
+          serviceInterest: form.serviceInterest,
+          newServiceIdea: form.newServiceIdea,
+        }),
+      });
+
+      const data = await res.json();
+
+      if (res.ok) {
+        setStatus("Respostas enviadas com sucesso! 😎");
+        setForm({ name: "", serviceInterest: "Sim", newServiceIdea: "" });
+      } else {
+        setStatus(data.message || "Erro ao enviar o e-mail. 😮");
+      }
+    } catch (error) {
+      setStatus("Erro ao enviar o e-mail.");
+    } finally {
+      setIsSendingMessage(false);
+      setTimeout(() => setStatus(""), 2500);
+    }
   };
 
   return (
-    <div className="bg-gradient-to-b from-gray-900 to-gray-800 min-h-screen flex flex-col items-center px-2 pt-[78px] md:pt-16 pb-[164px] md:pb-[132px] relative">
-      {!submitted ? (
-        <Wrapper>
-          <p className="text-xs md:text-base mb-4">
-            Gostaríamos de saber sua opinião sobre futuros serviços!
-          </p>
+    <div className="bg-gradient-to-b from-gray-900 to-gray-800 flex flex-col items-center px-2 pt-[78px] md:pt-16 pb-[132px] md:pb-[64px]">
+      <div className="bg-gray-700 text-white p-6 rounded-lg shadow-lg w-full max-w-sm">
+        <p className="text-sm md:text-base mb-4 text-center">
+          Queremos saber sua opinião! 😊 <br />
+          Responda abaixo e ajude a trazer novos serviços para nossa cidade.
+        </p>
 
-          <Input
-            id="email"
-            name="email"
-            required
-            type="email"
-            value={name}
-            placeholder="Digite seu nome (opcional)"
-            onChange={(e) => setName(e.target.value)}
-            label="Nome (opcional)"
-          />
+        <Input
+          id="name"
+          name="name"
+          type="text"
+          value={form.name}
+          placeholder="Seu nome"
+          onChange={handleChange}
+          label="Nome (Opcional)"
+          aria-required="false"
+        />
 
-          <label className="text-sm block mb-2">
-            Você gostaria de um serviço onde pudesse buscar por empresas ou
-            profissionais, ou divulgar o seu próprio serviço?
-          </label>
-          <div className="flex gap-4 mb-4">
-            <label className="flex items-center gap-2 cursor-pointer">
+        <label className="text-sm block mb-2 mt-4">
+          Você gostaria de um site onde pudesse{" "}
+          <strong>encontrar</strong> ou <strong>divulgar</strong> serviços de
+          empresas e profissionais da cidade?
+        </label>
+
+        <div className="flex flex-col gap-2 mb-4">
+          {["Sim", "Não", "Talvez"].map((option) => (
+            <label
+              key={option}
+              className="flex items-center gap-2 cursor-pointer"
+            >
               <input
                 type="radio"
                 name="serviceInterest"
-                value="Sim"
-                checked={serviceInterest === "Sim"}
-                onChange={(e) => setServiceInterest(e.target.value)}
+                value={option}
+                checked={form.serviceInterest === option}
+                onChange={handleChange}
                 className="accent-blue-600"
               />
-              <span className="text-sm">Sim</span>
+              <span className="text-sm">{option}</span>
             </label>
+          ))}
+        </div>
 
-            <label className="flex items-center gap-2 cursor-pointer">
-              <input
-                type="radio"
-                name="serviceInterest"
-                value="Não"
-                checked={serviceInterest === "Não"}
-                onChange={(e) => setServiceInterest(e.target.value)}
-                className="accent-blue-600"
-              />
-              <span className="text-sm">Não</span>
-            </label>
-          </div>
+        <label
+          htmlFor="newServiceIdea"
+          className="block text-xs md:text-sm mb-1"
+        >
+          Existe algum outro tipo de site ou serviço que você gostaria de ver na
+          sua cidade? (Opcional)
+        </label>
 
-          <label className="text-sm block mb-1">
-            Você gostaria de algum outro site ou serviço que atualmente não
-            existe na sua cidade? (opcional)
-          </label>
-          <textarea
-            value={newServiceIdea}
-            onChange={(e) => setNewServiceIdea(e.target.value)}
-            rows={3}
-            placeholder="Digite sua ideia aqui..."
-            className="w-full bg-gray-800 text-white border border-gray-600 p-2 rounded"
-          />
+        <textarea
+          id="newServiceIdea"
+          name="newServiceIdea"
+          value={form.newServiceIdea}
+          rows={3}
+          onChange={handleChange}
+          className="w-full bg-gray-800 text-white border border-gray-600 p-2 rounded resize-none"
+          placeholder="Digite sua sugestão ou ideia"
+        />
 
-          <div className="flex justify-end gap-2 mt-2">
-            <button
-              className="text-gray-300 hover:text-gray-100 text-sm"
-              onClick={() => router.back()}
-            >
-              Cancelar
-            </button>
-            <button
-              onClick={handleSubmit}
-              disabled={loading}
-              className="bg-blue-700 hover:bg-blue-900 transition text-white font-bold py-2 px-4 rounded disabled:bg-blue-200 disabled:hover:bg-blue-200"
-            >
-              {loading ? "Enviando..." : "Enviar"}
-            </button>
-          </div>
-        </Wrapper>
-      ) : (
-        <Wrapper className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-          <p className="text-center text-blue-400 font-semibold">
-            Obrigado pelo seu feedback!
-          </p>
-        </Wrapper>
+        <p
+          className={`text-xs md:text-sm mt-1 ${form.newServiceIdea.length > MAX_MESSAGE_LENGTH * 0.9
+            ? "text-yellow-400"
+            : "text-gray-300"
+            }`}
+        >
+          {form.newServiceIdea.length}/{MAX_MESSAGE_LENGTH} caracteres
+        </p>
+
+        <button
+          onClick={handleSendMessage}
+          disabled={isSendingMessage || !isMessageLengthValid}
+          aria-disabled={isSendingMessage}
+          className="bg-blue-700 hover:bg-blue-900 transition text-white font-bold py-2 px-4 rounded w-full disabled:bg-blue-200 disabled:hover:bg-blue-200 mt-3"
+        >
+          {isSendingMessage ? "Enviando..." : "Enviar"}
+        </button>
+      </div>
+
+      {status && (
+        <p className="mt-4 text-center text-white" aria-live="polite">
+          {status}
+        </p>
       )}
     </div>
   );

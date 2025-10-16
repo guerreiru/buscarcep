@@ -12,6 +12,7 @@ export function Footer() {
   const pathname = usePathname();
 
   const isPdfPage = pathname === "/pdf";
+  const isSurveyPage = pathname === "/survey";
 
   const handleCopyPixCode = async () => {
     try {
@@ -30,7 +31,7 @@ export function Footer() {
     }
   };
 
-  if (isPdfPage) {
+  if (isPdfPage || isSurveyPage) {
     return null; // Não renderiza o footer na página de PDF
   }
 
