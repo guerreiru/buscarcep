@@ -72,7 +72,7 @@ export default function Answers() {
       </button>
     </form>
 
-    {feedbacks.length > 0 && (
+    {feedbacks.length && feedbacks.length > 0 && (
       <div className="bg-gray-700 text-white p-6 rounded-lg shadow-lg mt-6 overflow-x-auto">
         {feedbacks.map((fb) => (
           <div key={fb.id} className="border-b border-gray-600 py-2 last:border-0">
