@@ -33,7 +33,7 @@ export default function Home() {
   }, [results]);
 
   return (
-    <div className="bg-gradient-to-b from-gray-900 to-gray-800 min-h-screen flex flex-col items-center px-2 pt-[72px] pb-[164px] md:pb-[132px]">
+    <div className="bg-gradient-to-b from-gray-900 to-gray-800 min-h-screen flex flex-col items-center px-2 pt-[78px] md:pt-16 pb-[164px] md:pb-[132px]">
       <div className="bg-gray-700 text-white p-6 rounded-lg shadow-lg w-full max-w-sm">
         <p className="mb-4">
           Selecione o estado e cidade e digite a rua para encontrar o CEP.

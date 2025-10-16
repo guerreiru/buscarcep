@@ -25,3 +25,16 @@ export async function POST(req: Request) {
     );
   }
 }
+
+export async function GET() {
+  try {
+    const feedbacks = await prisma.feedback.findMany();
+
+    return NextResponse.json({ success: true, feedbacks });
+  } catch (error) {
+    return NextResponse.json(
+      { error: "Erro ao buscar feedbacks" },
+      { status: 500 }
+    );
+  }
+}
