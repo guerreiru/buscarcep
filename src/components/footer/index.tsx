@@ -35,7 +35,7 @@ export function Footer() {
   }
 
   return (
-    <footer className=" bg-gray-800 text-white fixed bottom-0 w-full z-50 shadow-md">
+    <footer className=" bg-gray-800 text-white fixed bottom-0 w-full z-40 shadow-md">
       <div className="flex flex-col lg:flex-row justify-around py-2 items-center flex-wrap gap-2">
         <a
           href="mailto:dev.fernandoguerreiro@gmail.com"
@@ -103,7 +103,7 @@ export function Footer() {
         </Modal>
       )}
 
-      <div className="flex justify-center items-center mt-2">
+      <div className="flex justify-center items-center">
         <p className="text-xs">
           © 2025 Fernando Guerreiro. Todos os direitos reservados.
         </p>
