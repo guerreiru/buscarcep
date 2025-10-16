@@ -159,13 +159,13 @@ const config = {
   "inlineDatasources": {
     "db": {
       "url": {
-        "fromEnvVar": "DATABASE_URL",
-        "value": null
+        "fromEnvVar": null,
+        "value": "file:./dev.db"
       }
     }
   },
-  "inlineSchema": "generator client {\n  provider      = \"prisma-client-js\"\n  output        = \"../src/generated/prisma\"\n  binaryTargets = [\"native\", \"rhel-openssl-3.0.x\"]\n}\n\ndatasource db {\n  provider = \"sqlite\"\n  url      = env(\"DATABASE_URL\")\n}\n\nmodel Feedback {\n  id              Int      @id @default(autoincrement())\n  name            String?\n  serviceInterest Boolean\n  newServiceIdea  String\n  createdAt       DateTime @default(now())\n}\n",
-  "inlineSchemaHash": "3469f36d41210a9e9125aee75e0b20cf23d20005260df13be650f17733d226bc",
+  "inlineSchema": "generator client {\n  provider      = \"prisma-client-js\"\n  output        = \"../src/generated/prisma\"\n  binaryTargets = [\"native\", \"rhel-openssl-3.0.x\"]\n}\n\ndatasource db {\n  provider = \"sqlite\"\n  url      = \"file:./dev.db\"\n}\n\nmodel Feedback {\n  id              Int      @id @default(autoincrement())\n  name            String?\n  serviceInterest Boolean\n  newServiceIdea  String\n  createdAt       DateTime @default(now())\n}\n",
+  "inlineSchemaHash": "65a52de4ba6a7f1c5957d926829c743378b8088ce112ae3b0c468afdb90a3bdf",
   "copyEngine": true
 }
 
