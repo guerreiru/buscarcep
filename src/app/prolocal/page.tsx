@@ -314,7 +314,9 @@ export default function ProlocalPage() {
               <span className="font-semibold text-black dark:text-white">
                 💬 WhatsApp:
               </span>{" "}
-              <a href="tel:+5588999254660">(88) 99925-4660</a>
+              <a href="http://api.whatsapp.com/send?phone=5588999254660">
+                (88) 99925-4660
+              </a>
             </p>
             <p className="text-gray-700 dark:text-gray-300">
               <span className="font-semibold text-black dark:text-white">
