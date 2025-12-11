@@ -27,13 +27,13 @@ export function Header() {
             Contato
           </Link>
           <Link
-            href="/survey"
+            href="/prolocal"
             className="text-xs md:text-sm font-bold px-3 py-1 rounded
-             bg-green-400 text-gray-900
-             shadow-[0_0_8px_#0fa,0_0_12px_#0fa,0_0_20px_#0fa] hover:shadow-[0_0_12px_#0fa,0_0_20px_#0fa,0_0_28px_#0fa]
+             bg-[#beee02] text-gray-900
+             shadow-[0_0_8px_#beee02,0_0_12px_#beee02,0_0_20px_#beee02] hover:shadow-[0_0_12px_#beee02,0_0_20px_#beee02,0_0_28px_#beee02]
              transition-all duration-300"
           >
-            Pesquisa
+            ProLocal
           </Link>
         </nav>
       </div>
