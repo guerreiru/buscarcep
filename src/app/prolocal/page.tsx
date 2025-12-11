@@ -321,7 +321,7 @@ export default function ProlocalPage() {
                 🌐 Site:
               </span>{" "}
               <a
-                href="https://prolocal.com.br"
+                href="https://www.prolocal.com.br/"
                 className="text-[#beee02] hover:underline"
               >
                 www.prolocal.com.br
